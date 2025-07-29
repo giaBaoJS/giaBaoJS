@@ -1,5 +1,4 @@
-<img align='right' src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="230">
-
+<img align='right' src="https://gifdb.com/images/high/hard-work-hardworking-cute-sticker-typing-2g9uumun7gfuzt3f.webp" width="200">
 ## Hi 👋, I'm Bao Nguyen  
 # A React Native Developer from Vietnam 👨‍💻
 
