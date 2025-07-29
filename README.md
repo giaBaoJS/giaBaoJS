@@ -1,50 +1,85 @@
-# Hi there, I'm <a href="https://github.com/dennytosp">Mad Dinh</a> <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px">
+<img align='right' src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="230">
 
-I'm a self-taught passionate React Native Developer from Vietnam 🇻🇳
+## Hi 👋, I'm Bao Nguyen  
+# A React Native Developer from Vietnam 👨‍💻
 
-## 🚀 About Me
-I'm a React Native Developer with 4+ years of experience in building high-quality and performant mobile applications. I'm passionate about creating impressive user experiences and writing clean, efficient code.
+[![](https://img.shields.io/badge/Facebook-BaoNguyen-blue)](https://www.facebook.com/giabaojs)
+[![](https://img.shields.io/badge/Gmail-giabaojs%40gmail.com-red)](mailto:giabaojs@gmail.com)
+[![](https://img.shields.io/badge/GitHub-giaBaoJS-black)](https://github.com/giaBaoJS)
 
-## 🛠 Skills
-- **Languages:** JavaScript (ES6+), TypeScript.
-- **Frameworks:** React Native (Expo/CLI).
-- **Platforms:** Mobile (Android/IOS).
-- **State Management:** Redux, Context API, TanStack,...
-- **Source code management:** GitHub, GitLab, Bitbucket.
-- **Tools:** Cursor, Windsurf, Git, GitHub Desktop, Visual Studio Code, Xcode, Sourcetree, Android Studio, Jira, Debugger, Flipper, Figma,...
-- **API:** Axios, RESTful API.
+### <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="50"> A little more about me...  
 
-## 🔗 Links
-<div align="left">
-  <a href="mailto:example@yourdomain.com"><img src="https://img.shields.io/static/v1?message=Gmail&logo=gmail&label=&color=D14836&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="gmail logo" /></a>
-  <a href="https://www.linkedin.com/in/dinhtienphong"><img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="linkedin logo" /></a>
-  <a href="https://twitter.com/oceandawy"><img src="https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" height="35" alt="twitter logo" /></a>
+🚀 I'm a React Native Developer with 4+ years of experience in building high-quality and performant mobile applications  
+💡 I'm passionate about creating impressive user experiences and writing clean, efficient code  
+🎯 Currently working on exciting mobile projects and exploring new technologies  
+📱 I love turning ideas into beautiful, functional mobile applications  
+
+```javascript
+const BaoInformation = {
+    pronouns: "He" | "Him",
+    askMeAbout: ["React Native Development", "Mobile App Architecture", "UI/UX Design"],
+    technologies: {
+        frontend: ["React Native", "React", "TypeScript", "JavaScript"],
+        backend: ["Node.js", "Express"],
+        database: ["MongoDB", "MySQL", "Firebase"],
+        tools: ["Expo", "React Native CLI", "Redux", "Context API", "TanStack"],
+        design: ["Figma", "Adobe XD"],
+        others: ["Git", "GitHub", "GitLab", "Bitbucket", "Jira", "VS Code", "Xcode", "Android Studio"]
+    },
+    currentFocus: "Building scalable mobile applications",
+    funFact: "I debug with console.log and I'm not ashamed! 😄"
+}
+```
+
+## 🛠 My Tech Stack
+
+### Mobile Development
+![React Native](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Expo](https://img.shields.io/badge/Expo-1B1F23?style=for-the-badge&logo=expo&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+
+### State Management & APIs
+![Redux](https://img.shields.io/badge/Redux-593D88?style=for-the-badge&logo=redux&logoColor=white)
+![React Query](https://img.shields.io/badge/React_Query-FF4154?style=for-the-badge&logo=react%20query&logoColor=white)
+![Axios](https://img.shields.io/badge/Axios-5A29E4?style=for-the-badge&logo=axios&logoColor=white)
+
+### Development Tools
+![VS Code](https://img.shields.io/badge/VS_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)
+![Xcode](https://img.shields.io/badge/Xcode-007ACC?style=for-the-badge&logo=Xcode&logoColor=white)
+![Android Studio](https://img.shields.io/badge/Android_Studio-3DDC84?style=for-the-badge&logo=android-studio&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+
+## 📊 GitHub Stats
+
+<div align="center">
+  <!-- <img height="180em" src="https://github-readme-stats.vercel.app/api?username=giaBaoJS&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/> -->
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=giaBaoJS&layout=compact&langs_count=8&theme=tokyonight"/>
 </div>
 
-## 🌐 GitHub Overview
+<div align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=giaBaoJS&theme=tokyonight" alt="giaBaoJS" />
+</div>
 
-<div>
-  <picture>
-  <source
-    srcset="https://github-readme-stats.vercel.app/api?username=dennytosp&show_icons=true&include_all_commits=true&count_private=true&theme=transparent" height="180"
-    media="(prefers-color-scheme: dark)"
-  />
-  <source
-    srcset="https://github-readme-stats.vercel.app/api?username=dennytosp&show_icons=true&include_all_commits=true&count_private=true&theme=transparent" height="180"
-    media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
-  />
-  <img src="https://github-readme-stats.vercel.app/api?username=denntosp&show_icons=true" />
-</picture>
+## 🏆 GitHub Trophies
+<div align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=giaBaoJS&theme=tokyonight&row=1&column=7" alt="giaBaoJS" />
+</div>
 
-  <picture>
-  <source
-    srcset="https://github-readme-stats.vercel.app/api/top-langs?username=dennytosp&hide=c%23&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=6&theme=transparent&hide_border=false" height="180" alt="languages graph" height="180"
-    media="(prefers-color-scheme: dark)"
-  />
-  <source
-    srcset="https://github-readme-stats.vercel.app/api/top-langs?username=dennytosp&hide=c%23&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=6&theme=transparent&hide_border=false" height="180" alt="languages graph" height="180"
-    media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
-  />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=denntosp&show_icons=true" />
-</picture>
+## 💼 What I'm Working On
+
+- 🔭 Building innovative mobile applications with React Native
+- 🌱 Learning advanced mobile development patterns and best practices  
+- 👯 Looking to collaborate on open source React Native projects
+- 💬 Ask me about **React Native, Mobile Development, JavaScript, TypeScript**
+- ⚡ Fun fact: **I think mobile apps can change the world, one user experience at a time!**
+
+## 📈 Activity Graph
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=giaBaoJS&theme=tokyo-night&hide_border=true" />
+
+<img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="60"> <em><b>I love connecting with different people</b> so if you want to say <b>hi, I'll be happy to meet you more!</b> 😊</em>
+
+---
+<div align="center">
+  <img src="https://komarev.com/ghpvc/?username=giaBaoJS&color=blueviolet&style=flat-square&label=Profile+Views" />
 </div>
