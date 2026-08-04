@@ -55,17 +55,13 @@ const BaoInformation = {
 ## <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExcXpjeWhtb3cwaXBpa3B6cno5Z2F3ZjlqbG84NWUwMmJqbjJrZXY5cSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/qDeMbNTYI4irHT6TkD/giphy.gif" width="50"> GitHub Stats
 
 <div align="center">
-  <!-- <img height="180em" src="https://github-readme-stats.vercel.app/api?username=giaBaoJS&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/> -->
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=giaBaoJS&layout=compact&langs_count=8&theme=tokyonight"/>
-</div>
-
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=giaBaoJS&theme=tokyonight" alt="giaBaoJS" />
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=giaBaoJS&show_icons=true&theme=tokyonight&count_private=true" />
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=giaBaoJS&layout=compact&theme=tokyonight" />
 </div>
 
 ## <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExNzdkbml6cjAxN2p1dzhtNTI5N3VrYTJzN2hhc3JrNDY1YWljb2xueiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/hDLiT6bW6E74jLu3Gw/giphy.gif" width="50"> GitHub Trophies
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=giaBaoJS&theme=tokyonight&row=1&column=7" alt="giaBaoJS" />
+  <img src="https://github-trophies.vercel.app/?username=giaBaoJS&theme=tokyonight&row=1&column=7" alt="giaBaoJS" />
 </div>
 
 ##  <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExbG1wcmNnd3lhYWNrOGMyNnA4OTBhcGhtZGdlYzd3cGExd3M1YmNkeCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/C3NZtLRo8TMHvVCFFE/giphy.gif" width="50"> What I'm Working On
