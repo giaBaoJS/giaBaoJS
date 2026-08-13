@@ -34,6 +34,31 @@ const BaoInformation = {
 }
 ```
 
+## <img src="https://i.gifer.com/WiqN.gif" width="50"> My Tech Stack 
+
+### Mobile Development
+![React Native](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Expo](https://img.shields.io/badge/Expo-1B1F23?style=for-the-badge&logo=expo&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+
+### Native
+![Swift](https://img.shields.io/badge/Swift-FA7343?style=for-the-badge&logo=swift&logoColor=white)
+![SwiftUI](https://img.shields.io/badge/SwiftUI-0071E3?style=for-the-badge&logo=swift&logoColor=white)
+![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)
+![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
+
+### State Management & APIs
+![Redux](https://img.shields.io/badge/Redux-593D88?style=for-the-badge&logo=redux&logoColor=white)
+![React Query](https://img.shields.io/badge/React_Query-FF4154?style=for-the-badge&logo=react%20query&logoColor=white)
+![Axios](https://img.shields.io/badge/Axios-5A29E4?style=for-the-badge&logo=axios&logoColor=white)
+
+### Development Tools
+![VS Code](https://img.shields.io/badge/VS_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)
+![Xcode](https://img.shields.io/badge/Xcode-007ACC?style=for-the-badge&logo=Xcode&logoColor=white)
+![Android Studio](https://img.shields.io/badge/Android_Studio-3DDC84?style=for-the-badge&logo=android-studio&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+
 ## <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExbG1wcmNnd3lhYWNrOGMyNnA4OTBhcGhtZGdlYzd3cGExd3M1YmNkeCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/C3NZtLRo8TMHvVCFFE/giphy.gif" width="50"> Open Source Contributions
 
 **27 pull requests to 6 projects.** I use these libraries in production, so when something breaks I go and fix it upstream — every PR below comes with a root-cause write-up and a regression test.
@@ -138,31 +163,6 @@ Native modules for the New Architecture, plus one SwiftUI package. All MIT, all 
 | **[react-native-image-analysis](https://github.com/giaBaoJS/react-native-image-analysis)** | On-device OCR with text geometry, barcodes, and a tap-to-select text view. Apple VisionKit on iOS, Google ML Kit on Android. | |
 | **[react-native-ios-controls](https://github.com/giaBaoJS/react-native-ios-controls)** | Control Center, Lock Screen and Action Button controls (iOS 18 `ControlWidget`), plus a CLI that wires up the widget target for you. | |
 | **[ToastKit](https://github.com/giaBaoJS/ToastKit)** | A polished SwiftUI toast & snackbar library — queued toasts, semantic styles, swipe-to-dismiss, full accessibility. | [![docs](https://img.shields.io/badge/DocC-docs-orange?style=flat-square&labelColor=161B22&logo=swift&logoColor=white)](https://giabaojs.github.io/ToastKit/documentation/toastkit/) |
-
-## <img src="https://i.gifer.com/WiqN.gif" width="50"> My Tech Stack 
-
-### Mobile Development
-![React Native](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Expo](https://img.shields.io/badge/Expo-1B1F23?style=for-the-badge&logo=expo&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-
-### Native
-![Swift](https://img.shields.io/badge/Swift-FA7343?style=for-the-badge&logo=swift&logoColor=white)
-![SwiftUI](https://img.shields.io/badge/SwiftUI-0071E3?style=for-the-badge&logo=swift&logoColor=white)
-![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)
-![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
-
-### State Management & APIs
-![Redux](https://img.shields.io/badge/Redux-593D88?style=for-the-badge&logo=redux&logoColor=white)
-![React Query](https://img.shields.io/badge/React_Query-FF4154?style=for-the-badge&logo=react%20query&logoColor=white)
-![Axios](https://img.shields.io/badge/Axios-5A29E4?style=for-the-badge&logo=axios&logoColor=white)
-
-### Development Tools
-![VS Code](https://img.shields.io/badge/VS_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)
-![Xcode](https://img.shields.io/badge/Xcode-007ACC?style=for-the-badge&logo=Xcode&logoColor=white)
-![Android Studio](https://img.shields.io/badge/Android_Studio-3DDC84?style=for-the-badge&logo=android-studio&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 
 ## <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExNHVnZXh3ZG1qaXQ5ejI0YzQ4Mm5qN2s2cXcweWVzMTA1aGdjYm92ZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/ShM3DqhMzYxQPaT2qQ/giphy.gif" width="50"> Activity Graph
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=giaBaoJS&theme=tokyo-night&hide_border=true" />
