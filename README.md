@@ -9,7 +9,7 @@ A React Native Developer <img src="https://i.gifer.com/ZMQt.gif" width="50"></h2
 
 ### <img src="https://i.pinimg.com/originals/63/b4/f2/63b4f20141bda26594b08fca821d6e4d.gif" width="50"> A little more about me...  
 
-🚀 I'm a React Native Developer with 5+ years of experience in building high-quality and performant mobile applications  
+🚀 I'm a React Native Developer with 6+ years of experience in building high-quality and performant mobile applications  
 💡 I'm passionate about creating impressive user experiences and writing clean, efficient code  
 🔧 I publish native modules for React Native and fix bugs in the libraries I ship with  
 📱 I love turning ideas into beautiful, functional mobile applications  
