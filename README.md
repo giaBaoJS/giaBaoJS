@@ -61,92 +61,53 @@ const BaoInformation = {
 
 ## <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExbG1wcmNnd3lhYWNrOGMyNnA4OTBhcGhtZGdlYzd3cGExd3M1YmNkeCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/C3NZtLRo8TMHvVCFFE/giphy.gif" width="50"> Open Source Contributions
 
-**27 pull requests to 6 projects.** I use these libraries in production, so when something breaks I go and fix it upstream — every PR below comes with a root-cause write-up and a regression test.
+**48 recent pull requests to 23 external open-source projects.** Every bug fix starts with a root-cause investigation and a regression test that fails without the patch.
 
-<br>
+![merged](https://img.shields.io/badge/merged-6-2EA44F?style=flat-square)
+![under review](https://img.shields.io/badge/under_review-39-1F6FEB?style=flat-square)
+![closed](https://img.shields.io/badge/closed_without_merge-3-6E7781?style=flat-square)
 
-### [Shopify/react-native-skia](https://github.com/Shopify/react-native-skia) [![stars](https://img.shields.io/github/stars/Shopify/react-native-skia?style=flat-square&label=%E2%AD%90&labelColor=161B22&color=1F6FEB)](https://github.com/Shopify/react-native-skia)
-<sub>High-performance 2D graphics for React Native</sub>
+### Merged upstream
 
-| PR | What it fixes |
-| :-- | :-- |
-| [#4001](https://github.com/Shopify/react-native-skia/pull/4001) `open` | **Use-after-free in `Font.getTypeface()`.** The borrowed pointer from `SkFont::getTypeface()` was adopted into an owning `sk_sp` without a ref, so every call silently drained the typeface's refcount until it was destroyed underneath live fonts. Proven with a C++ harness linked against the real prebuilt Skia binary — the unpatched build `SIGABRT`s, the patched one exits clean. |
-
-<br>
-
-### [nguyenphutrong/quotio](https://github.com/nguyenphutrong/quotio) [![stars](https://img.shields.io/github/stars/nguyenphutrong/quotio?style=flat-square&label=%E2%AD%90&labelColor=161B22&color=1F6FEB)](https://github.com/nguyenphutrong/quotio)
-<sub>Native macOS menu bar app that unifies your AI subscriptions — Swift 6, strict concurrency</sub>
-
-| PR | What it fixes |
-| :-- | :-- |
-| [#467](https://github.com/nguyenphutrong/quotio/pull/467) `open` | Configuring the proxy overwrote `~/.codex/auth.json` wholesale, destroying credentials — now a merge-write with a restorable backup |
-| [#471](https://github.com/nguyenphutrong/quotio/pull/471) `open` | Round-tripping an auth file dropped every field the app didn't recognise — silent data loss straight into the Keychain |
-| [#477](https://github.com/nguyenphutrong/quotio/pull/477) `open` | An `opencode.json` with comments failed to parse and got wiped; now parses JSONC and splices a single field back byte-for-byte |
-| [#481](https://github.com/nguyenphutrong/quotio/pull/481) `open` | Custom HTTP headers for custom providers, with RFC 7230 validation so a CR/LF in a header value can't inject a request |
-| [#475](https://github.com/nguyenphutrong/quotio/pull/475) `open` | A `-1` "no data" sentinel was rendered as `100 − (−1)` = **101%** — placeholder now, in the ring and in VoiceOver |
-| [#472](https://github.com/nguyenphutrong/quotio/pull/472) `open` | Accounts imported from Cursor and Trae couldn't be deleted — and deleted ones resurrected on the next scan |
+| Project | PR | Impact |
+| :-- | :-- | :-- |
+| [Shopify/react-native-skia](https://github.com/Shopify/react-native-skia) | [#4004](https://github.com/Shopify/react-native-skia/pull/4004) ✅ | Restored overflow clipping in Android view snapshots and removed reflection that was dead on every supported React Native version; verified on an Android device. |
+| [mrousavy/react-native-fast-tflite](https://github.com/mrousavy/react-native-fast-tflite) | [#201](https://github.com/mrousavy/react-native-fast-tflite/pull/201) ✅ | Restored input-buffer size validation in release builds after the Nitro migration. |
+| [software-mansion-labs/react-native-bottom-sheet](https://github.com/software-mansion-labs/react-native-bottom-sheet) | [#71](https://github.com/software-mansion-labs/react-native-bottom-sheet/pull/71) ✅ | Fixed iOS nested-scrollable hit testing by preserving the touch-down location instead of using the post-threshold pan point. |
+| [huytdps13400/react-native-iconify](https://github.com/huytdps13400/react-native-iconify) | [#8](https://github.com/huytdps13400/react-native-iconify/pull/8) ✅ | Made the icon scanner detect icons rendered through wrapper components, preventing required assets from being omitted. |
+| [gronxb/hot-updater](https://github.com/gronxb/hot-updater) | [#1142](https://github.com/gronxb/hot-updater/pull/1142) ✅ | Added a BugSnag source-map upload plugin so stack traces from OTA JavaScript bundles remain readable. |
+| [SwiftPackageIndex/PackageList](https://github.com/SwiftPackageIndex/PackageList) | [#14796](https://github.com/SwiftPackageIndex/PackageList/pull/14796) ✅ | Added [ToastKit](https://github.com/giaBaoJS/ToastKit) to the Swift Package Index. |
 
 <details>
-<summary><b>15 more →</b></summary>
+<summary><b>39 pull requests currently under review →</b></summary>
 
 <br>
 
-| PR | What it does |
+| Project | Pull requests |
 | :-- | :-- |
-| [#468](https://github.com/nguyenphutrong/quotio/pull/468) `open` | Classify Codex quota windows by actual duration instead of position in the response |
-| [#469](https://github.com/nguyenphutrong/quotio/pull/469) `open` | Deduplicate Copilot quota items appearing twice under legacy and current identity keys |
-| [#470](https://github.com/nguyenphutrong/quotio/pull/470) `open` | Show the provider in the request log — and stop attributing Kiro requests to Claude |
-| [#473](https://github.com/nguyenphutrong/quotio/pull/473) `open` | Configurable reasoning effort for Codex models |
-| [#474](https://github.com/nguyenphutrong/quotio/pull/474) `open` | Let the user choose which quota bucket the menu bar shows |
-| [#476](https://github.com/nguyenphutrong/quotio/pull/476) `open` | Complete app reset in Settings, with an injectable directory so tests never touch real data |
-| [#478](https://github.com/nguyenphutrong/quotio/pull/478) `open` | Sort the accounts currently in use to the top of the menu |
-| [#479](https://github.com/nguyenphutrong/quotio/pull/479) `open` | Detect Trae CN in "Scan for IDEs", with a domain allowlist so a user-writable file can't exfiltrate a token |
-| [#480](https://github.com/nguyenphutrong/quotio/pull/480) `open` | Persist traffic statistics across proxy restarts, with a versioned store and migration |
-| [#482](https://github.com/nguyenphutrong/quotio/pull/482) `open` | Split Gemini models into their own Google-protocol provider for OpenCode |
-| [#483](https://github.com/nguyenphutrong/quotio/pull/483) `open` | Show available models in the app panel, distinguishing "empty" from "failed to load" |
-| [#484](https://github.com/nguyenphutrong/quotio/pull/484) `open` | Opt-in restore of agent configs on quit, keyed by a SHA-256 receipt so it never clobbers a config it didn't write |
-| [#485](https://github.com/nguyenphutrong/quotio/pull/485) `open` | Carry explicit quota bucket kinds from the fetchers instead of inferring them from display strings |
-| [#486](https://github.com/nguyenphutrong/quotio/pull/486) `open` | Refresh imported Cursor and Trae quotas on a global refresh |
-| [#487](https://github.com/nguyenphutrong/quotio/pull/487) `open` | Opt-in adaptive refresh cadence that backs off when nothing is changing |
+| [Shopify/react-native-skia](https://github.com/Shopify/react-native-skia) | [#4001](https://github.com/Shopify/react-native-skia/pull/4001) use-after-free in `Font.getTypeface()` · [#4002](https://github.com/Shopify/react-native-skia/pull/4002) WebGL context lost during effect cleanup |
+| [react/react-native](https://github.com/react/react-native) | [#57939](https://github.com/react/react-native/pull/57939) SectionList viewability crash · [#57940](https://github.com/react/react-native/pull/57940) package export used by VirtualizedList · [#57941](https://github.com/react/react-native/pull/57941) preserve Animated listeners across detach |
+| [expo/expo](https://github.com/expo/expo) | [#48878](https://github.com/expo/expo/pull/48878) SQLite first-launch race · [#48879](https://github.com/expo/expo/pull/48879) SPA route fallback · [#48880](https://github.com/expo/expo/pull/48880) `expo-video` Jest mocks |
+| [expo/eas-cli](https://github.com/expo/eas-cli) | [#4182](https://github.com/expo/eas-cli/pull/4182) duplicate screenshot filenames · [#4183](https://github.com/expo/eas-cli/pull/4183) simulator credentials flow · [#4184](https://github.com/expo/eas-cli/pull/4184) workflow template expressions |
+| [mrousavy/nitro](https://github.com/mrousavy/nitro) | [#1477](https://github.com/mrousavy/nitro/pull/1477) web host component · [#1478](https://github.com/mrousavy/nitro/pull/1478) optional array/record values · [#1479](https://github.com/mrousavy/nitro/pull/1479) Fabric view recreation |
+| [mrousavy/react-native-fast-tflite](https://github.com/mrousavy/react-native-fast-tflite) | [#199](https://github.com/mrousavy/react-native-fast-tflite/pull/199) invalid Metal delegate docs · [#200](https://github.com/mrousavy/react-native-fast-tflite/pull/200) broken Jest setup |
+| [mrousavy/react-native-nitro-image](https://github.com/mrousavy/react-native-nitro-image) | [#165](https://github.com/mrousavy/react-native-nitro-image/pull/165) deterministic default resize mode |
+| [appandflow/react-native-safe-area-context](https://github.com/appandflow/react-native-safe-area-context) | [#748](https://github.com/appandflow/react-native-safe-area-context/pull/748) stable web measurement probe · [#749](https://github.com/appandflow/react-native-safe-area-context/pull/749) resilient Jest mocks · [#750](https://github.com/appandflow/react-native-safe-area-context/pull/750) optional web provider view |
+| [jpudysz/react-native-unistyles](https://github.com/jpudysz/react-native-unistyles) | [#1231](https://github.com/jpudysz/react-native-unistyles/pull/1231) isolated web child selectors · [#1232](https://github.com/jpudysz/react-native-unistyles/pull/1232) safe forwarded-ref cleanup · [#1233](https://github.com/jpudysz/react-native-unistyles/pull/1233) React Compiler scope bindings |
+| [callstack/react-native-paper](https://github.com/callstack/react-native-paper) | [#5046](https://github.com/callstack/react-native-paper/pull/5046) function children/styles on native · [#5047](https://github.com/callstack/react-native-paper/pull/5047) deep theme merging · [#5048](https://github.com/callstack/react-native-paper/pull/5048) ordered Portal queue |
+| [rnmapbox/maps](https://github.com/rnmapbox/maps) | [#4279](https://github.com/rnmapbox/maps/pull/4279) partial camera padding · [#4280](https://github.com/rnmapbox/maps/pull/4280) handled native bridge failures |
+| [powersync-ja/powersync-js](https://github.com/powersync-ja/powersync-js) | [#1068](https://github.com/powersync-ja/powersync-js/pull/1068) watched-query error logging · [#1069](https://github.com/powersync-ja/powersync-js/pull/1069) unconditional React hook order |
+| [kirillzyusko/react-native-keyboard-controller](https://github.com/kirillzyusko/react-native-keyboard-controller) | [#1603](https://github.com/kirillzyusko/react-native-keyboard-controller/pull/1603) copy/paste-ready chat guide · [#1605](https://github.com/kirillzyusko/react-native-keyboard-controller/pull/1605) animated padding accumulation |
+| [LegendApp/legend-list](https://github.com/LegendApp/legend-list) | [#522](https://github.com/LegendApp/legend-list/pull/522) late sticky-scroll handler · [#523](https://github.com/LegendApp/legend-list/pull/523) MVCP header-size compensation |
+| [RonRadtke/react-native-blob-util](https://github.com/RonRadtke/react-native-blob-util) | [#484](https://github.com/RonRadtke/react-native-blob-util/pull/484) truthful progress callback types |
+| [react-navigation/react-navigation](https://github.com/react-navigation/react-navigation) | [#13216](https://github.com/react-navigation/react-navigation/pull/13216) typed drawer content props |
+| [margelo/react-native-filament](https://github.com/margelo/react-native-filament) | [#345](https://github.com/margelo/react-native-filament/pull/345) percent-decoded local asset URIs |
+| [gronxb/hot-updater](https://github.com/gronxb/hot-updater) | [#1143](https://github.com/gronxb/hot-updater/pull/1143) invalid baseline bundle handling |
+| [heroui-inc/heroui-native](https://github.com/heroui-inc/heroui-native) | [#464](https://github.com/heroui-inc/heroui-native/pull/464) restored Typography font weights |
 
 </details>
 
-<br>
-
-### [heroui-inc/heroui-native](https://github.com/heroui-inc/heroui-native) [![stars](https://img.shields.io/github/stars/heroui-inc/heroui-native?style=flat-square&label=%E2%AD%90&labelColor=161B22&color=1F6FEB)](https://github.com/heroui-inc/heroui-native)
-<sub>Beautiful, fast and modern React Native UI library</sub>
-
-| PR | What it fixes |
-| :-- | :-- |
-| [#464](https://github.com/heroui-inc/heroui-native/pull/464) `open` | **`<Typography weight>` stopped working in v1.0.6.** The BEM migration dropped the font-weight declarations, so every weight rendered identically unless you defined custom font variables. Traced to the exact migration PR that introduced it. |
-
-<br>
-
-### [gronxb/hot-updater](https://github.com/gronxb/hot-updater) [![stars](https://img.shields.io/github/stars/gronxb/hot-updater?style=flat-square&label=%E2%AD%90&labelColor=161B22&color=1F6FEB)](https://github.com/gronxb/hot-updater)
-<sub>Self-hostable OTA update solution for React Native</sub>
-
-| PR | What it does |
-| :-- | :-- |
-| [#1142](https://github.com/gronxb/hot-updater/pull/1142) `merged` ✅ | **New `@hot-updater/bugsnag-plugin`** — uploads source maps to BugSnag on every release so crash reports from OTA bundles are readable |
-| [#1143](https://github.com/gronxb/hot-updater/pull/1143) `open` | An unknown built-in baseline bundle id was treated as a real baseline, so devices could be handed an update they couldn't apply |
-
-<br>
-
-### [margelo/react-native-filament](https://github.com/margelo/react-native-filament) [![stars](https://img.shields.io/github/stars/margelo/react-native-filament?style=flat-square&label=%E2%AD%90&labelColor=161B22&color=1F6FEB)](https://github.com/margelo/react-native-filament)
-<sub>Google's Filament 3D renderer for React Native</sub>
-
-| PR | What it fixes |
-| :-- | :-- |
-| [#345](https://github.com/margelo/react-native-filament/pull/345) `open` | **`file://` URIs were never percent-decoded**, so any asset with a space or a non-ASCII character in its path failed to load on both platforms. Guarded so an existing file with a literal `%` in its name doesn't regress. |
-
-<br>
-
-### [software-mansion-labs/react-native-bottom-sheet](https://github.com/software-mansion-labs/react-native-bottom-sheet) [![stars](https://img.shields.io/github/stars/software-mansion-labs/react-native-bottom-sheet?style=flat-square&label=%E2%AD%90&labelColor=161B22&color=1F6FEB)](https://github.com/software-mansion-labs/react-native-bottom-sheet)
-<sub>Bottom sheet components for React Native</sub>
-
-| PR | What it fixes |
-| :-- | :-- |
-| [#71](https://github.com/software-mansion-labs/react-native-bottom-sheet/pull/71) `open` | **Nested scrollables were hit-tested from the wrong point on iOS** — the post-threshold pan location instead of the touch-down point, so a gesture that started inside an inner list could be stolen by the sheet |
+<sub>Status verified from GitHub on August 18, 2026. Closed PRs are included in the total instead of being hidden.</sub>
 
 <br>
 
