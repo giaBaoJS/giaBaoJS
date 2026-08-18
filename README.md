@@ -61,10 +61,10 @@ const BaoInformation = {
 
 ## <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExbG1wcmNnd3lhYWNrOGMyNnA4OTBhcGhtZGdlYzd3cGExd3M1YmNkeCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/C3NZtLRo8TMHvVCFFE/giphy.gif" width="50"> Open Source Contributions
 
-**48 recent pull requests to 23 external open-source projects.** Every bug fix starts with a root-cause investigation and a regression test that fails without the patch.
+**58 recent pull requests to 28 external open-source projects.** Every bug fix starts with a root-cause investigation and a regression test that fails without the patch.
 
 ![merged](https://img.shields.io/badge/merged-6-2EA44F?style=flat-square)
-![under review](https://img.shields.io/badge/under_review-39-1F6FEB?style=flat-square)
+![under review](https://img.shields.io/badge/under_review-49-1F6FEB?style=flat-square)
 ![closed](https://img.shields.io/badge/closed_without_merge-3-6E7781?style=flat-square)
 
 ### Merged upstream
@@ -79,13 +79,18 @@ const BaoInformation = {
 | [SwiftPackageIndex/PackageList](https://github.com/SwiftPackageIndex/PackageList) | [#14796](https://github.com/SwiftPackageIndex/PackageList/pull/14796) ✅ | Added [ToastKit](https://github.com/giaBaoJS/ToastKit) to the Swift Package Index. |
 
 <details>
-<summary><b>39 pull requests currently under review →</b></summary>
+<summary><b>49 pull requests currently under review →</b></summary>
 
 <br>
 
 | Project | Pull requests |
 | :-- | :-- |
-| [Shopify/react-native-skia](https://github.com/Shopify/react-native-skia) | [#4001](https://github.com/Shopify/react-native-skia/pull/4001) use-after-free in `Font.getTypeface()` · [#4002](https://github.com/Shopify/react-native-skia/pull/4002) WebGL context lost during effect cleanup |
+| [Shopify/react-native-skia](https://github.com/Shopify/react-native-skia) | [#4001](https://github.com/Shopify/react-native-skia/pull/4001) use-after-free in `Font.getTypeface()` · [#4002](https://github.com/Shopify/react-native-skia/pull/4002) WebGL context lost during effect cleanup · [#4009](https://github.com/Shopify/react-native-skia/pull/4009) imperative matrix API documentation |
+| [infinitered/reactotron](https://github.com/infinitered/reactotron) | [#1616](https://github.com/infinitered/reactotron/pull/1616) primitive Redux state paths · [#1617](https://github.com/infinitered/reactotron/pull/1617) connection-scoped custom commands · [#1618](https://github.com/infinitered/reactotron/pull/1618) malformed timeline payloads |
+| [react-native-datetimepicker/datetimepicker](https://github.com/react-native-datetimepicker/datetimepicker) | [#1052](https://github.com/react-native-datetimepicker/datetimepicker/pull/1052) Android `numbersInnerTextColor` config · [#1053](https://github.com/react-native-datetimepicker/datetimepicker/pull/1053) Expo config-plugin resolution |
+| [software-mansion/react-native-svg](https://github.com/software-mansion/react-native-svg) | [#3019](https://github.com/software-mansion/react-native-svg/pull/3019) React Native 0.87 asset resolution · [#3020](https://github.com/software-mansion/react-native-svg/pull/3020) recycled Fabric dasharray state |
+| [mrousavy/react-native-vision-camera](https://github.com/mrousavy/react-native-vision-camera) | [#4158](https://github.com/mrousavy/react-native-vision-camera/pull/4158) wrapping long mobile API headings |
+| [TheWidlarzGroup/react-native-video](https://github.com/TheWidlarzGroup/react-native-video) | [#5041](https://github.com/TheWidlarzGroup/react-native-video/pull/5041) bundled numeric video source types |
 | [react/react-native](https://github.com/react/react-native) | [#57939](https://github.com/react/react-native/pull/57939) SectionList viewability crash · [#57940](https://github.com/react/react-native/pull/57940) package export used by VirtualizedList · [#57941](https://github.com/react/react-native/pull/57941) preserve Animated listeners across detach |
 | [expo/expo](https://github.com/expo/expo) | [#48878](https://github.com/expo/expo/pull/48878) SQLite first-launch race · [#48879](https://github.com/expo/expo/pull/48879) SPA route fallback · [#48880](https://github.com/expo/expo/pull/48880) `expo-video` Jest mocks |
 | [expo/eas-cli](https://github.com/expo/eas-cli) | [#4182](https://github.com/expo/eas-cli/pull/4182) duplicate screenshot filenames · [#4183](https://github.com/expo/eas-cli/pull/4183) simulator credentials flow · [#4184](https://github.com/expo/eas-cli/pull/4184) workflow template expressions |
