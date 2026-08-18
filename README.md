@@ -112,7 +112,7 @@ const BaoInformation = {
 
 </details>
 
-<sub>Status verified from GitHub on August 18, 2026. Closed PRs are included in the total instead of being hidden.</sub>
+<sub>Status verified from GitHub on August 19, 2026. Closed PRs are included in the total instead of being hidden.</sub>
 
 <br>
 
