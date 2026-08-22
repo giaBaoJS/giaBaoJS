@@ -63,14 +63,17 @@ const BaoInformation = {
 
 **58 recent pull requests to 28 external open-source projects.** Every bug fix starts with a root-cause investigation and a regression test that fails without the patch.
 
-![merged](https://img.shields.io/badge/merged-6-2EA44F?style=flat-square)
-![under review](https://img.shields.io/badge/under_review-49-1F6FEB?style=flat-square)
-![closed](https://img.shields.io/badge/closed_without_merge-3-6E7781?style=flat-square)
+![merged](https://img.shields.io/badge/merged-9-2EA44F?style=flat-square)
+![under review](https://img.shields.io/badge/under_review-44-1F6FEB?style=flat-square)
+![closed](https://img.shields.io/badge/closed_without_merge-5-6E7781?style=flat-square)
 
 ### Merged upstream
 
 | Project | PR | Impact |
 | :-- | :-- | :-- |
+| [mrousavy/nitro](https://github.com/mrousavy/nitro) | [#1478](https://github.com/mrousavy/nitro/pull/1478) ✅ | Kept `| undefined` on array elements and Record values through Nitro codegen, so optional types survive generation instead of being silently widened. |
+| [mrousavy/react-native-vision-camera](https://github.com/mrousavy/react-native-vision-camera) | [#4158](https://github.com/mrousavy/react-native-vision-camera/pull/4158) ✅ | Fixed long API member headings overflowing the documentation page on mobile viewports. |
+| [Shopify/react-native-skia](https://github.com/Shopify/react-native-skia) | [#4009](https://github.com/Shopify/react-native-skia/pull/4009) ✅ | Documented the imperative matrix APIs that had no reference coverage. |
 | [Shopify/react-native-skia](https://github.com/Shopify/react-native-skia) | [#4004](https://github.com/Shopify/react-native-skia/pull/4004) ✅ | Restored overflow clipping in Android view snapshots and removed reflection that was dead on every supported React Native version; verified on an Android device. |
 | [mrousavy/react-native-fast-tflite](https://github.com/mrousavy/react-native-fast-tflite) | [#201](https://github.com/mrousavy/react-native-fast-tflite/pull/201) ✅ | Restored input-buffer size validation in release builds after the Nitro migration. |
 | [software-mansion-labs/react-native-bottom-sheet](https://github.com/software-mansion-labs/react-native-bottom-sheet) | [#71](https://github.com/software-mansion-labs/react-native-bottom-sheet/pull/71) ✅ | Fixed iOS nested-scrollable hit testing by preserving the touch-down location instead of using the post-threshold pan point. |
@@ -79,22 +82,21 @@ const BaoInformation = {
 | [SwiftPackageIndex/PackageList](https://github.com/SwiftPackageIndex/PackageList) | [#14796](https://github.com/SwiftPackageIndex/PackageList/pull/14796) ✅ | Added [ToastKit](https://github.com/giaBaoJS/ToastKit) to the Swift Package Index. |
 
 <details>
-<summary><b>49 pull requests currently under review →</b></summary>
+<summary><b>44 pull requests currently under review →</b></summary>
 
 <br>
 
 | Project | Pull requests |
 | :-- | :-- |
-| [Shopify/react-native-skia](https://github.com/Shopify/react-native-skia) | [#4001](https://github.com/Shopify/react-native-skia/pull/4001) use-after-free in `Font.getTypeface()` · [#4002](https://github.com/Shopify/react-native-skia/pull/4002) WebGL context lost during effect cleanup · [#4009](https://github.com/Shopify/react-native-skia/pull/4009) imperative matrix API documentation |
+| [Shopify/react-native-skia](https://github.com/Shopify/react-native-skia) | [#4001](https://github.com/Shopify/react-native-skia/pull/4001) use-after-free in `Font.getTypeface()` · [#4002](https://github.com/Shopify/react-native-skia/pull/4002) WebGL context lost during effect cleanup |
 | [infinitered/reactotron](https://github.com/infinitered/reactotron) | [#1616](https://github.com/infinitered/reactotron/pull/1616) primitive Redux state paths · [#1617](https://github.com/infinitered/reactotron/pull/1617) connection-scoped custom commands · [#1618](https://github.com/infinitered/reactotron/pull/1618) malformed timeline payloads |
 | [react-native-datetimepicker/datetimepicker](https://github.com/react-native-datetimepicker/datetimepicker) | [#1052](https://github.com/react-native-datetimepicker/datetimepicker/pull/1052) Android `numbersInnerTextColor` config · [#1053](https://github.com/react-native-datetimepicker/datetimepicker/pull/1053) Expo config-plugin resolution |
 | [software-mansion/react-native-svg](https://github.com/software-mansion/react-native-svg) | [#3019](https://github.com/software-mansion/react-native-svg/pull/3019) React Native 0.87 asset resolution · [#3020](https://github.com/software-mansion/react-native-svg/pull/3020) recycled Fabric dasharray state |
-| [mrousavy/react-native-vision-camera](https://github.com/mrousavy/react-native-vision-camera) | [#4158](https://github.com/mrousavy/react-native-vision-camera/pull/4158) wrapping long mobile API headings |
 | [TheWidlarzGroup/react-native-video](https://github.com/TheWidlarzGroup/react-native-video) | [#5041](https://github.com/TheWidlarzGroup/react-native-video/pull/5041) bundled numeric video source types |
-| [react/react-native](https://github.com/react/react-native) | [#57939](https://github.com/react/react-native/pull/57939) SectionList viewability crash · [#57940](https://github.com/react/react-native/pull/57940) package export used by VirtualizedList · [#57941](https://github.com/react/react-native/pull/57941) preserve Animated listeners across detach |
+| [react/react-native](https://github.com/react/react-native) | [#57939](https://github.com/react/react-native/pull/57939) SectionList viewability crash · [#57940](https://github.com/react/react-native/pull/57940) package export used by VirtualizedList |
 | [expo/expo](https://github.com/expo/expo) | [#48878](https://github.com/expo/expo/pull/48878) SQLite first-launch race · [#48879](https://github.com/expo/expo/pull/48879) SPA route fallback · [#48880](https://github.com/expo/expo/pull/48880) `expo-video` Jest mocks |
 | [expo/eas-cli](https://github.com/expo/eas-cli) | [#4182](https://github.com/expo/eas-cli/pull/4182) duplicate screenshot filenames · [#4183](https://github.com/expo/eas-cli/pull/4183) simulator credentials flow · [#4184](https://github.com/expo/eas-cli/pull/4184) workflow template expressions |
-| [mrousavy/nitro](https://github.com/mrousavy/nitro) | [#1477](https://github.com/mrousavy/nitro/pull/1477) web host component · [#1478](https://github.com/mrousavy/nitro/pull/1478) optional array/record values · [#1479](https://github.com/mrousavy/nitro/pull/1479) Fabric view recreation |
+| [mrousavy/nitro](https://github.com/mrousavy/nitro) | [#1477](https://github.com/mrousavy/nitro/pull/1477) web host component |
 | [mrousavy/react-native-fast-tflite](https://github.com/mrousavy/react-native-fast-tflite) | [#199](https://github.com/mrousavy/react-native-fast-tflite/pull/199) invalid Metal delegate docs · [#200](https://github.com/mrousavy/react-native-fast-tflite/pull/200) broken Jest setup |
 | [mrousavy/react-native-nitro-image](https://github.com/mrousavy/react-native-nitro-image) | [#165](https://github.com/mrousavy/react-native-nitro-image/pull/165) deterministic default resize mode |
 | [appandflow/react-native-safe-area-context](https://github.com/appandflow/react-native-safe-area-context) | [#748](https://github.com/appandflow/react-native-safe-area-context/pull/748) stable web measurement probe · [#749](https://github.com/appandflow/react-native-safe-area-context/pull/749) resilient Jest mocks · [#750](https://github.com/appandflow/react-native-safe-area-context/pull/750) optional web provider view |
@@ -112,7 +114,7 @@ const BaoInformation = {
 
 </details>
 
-<sub>Status verified from GitHub on August 19, 2026. Closed PRs are included in the total instead of being hidden.</sub>
+<sub>Status verified from GitHub on August 22, 2026. Closed PRs are included in the total instead of being hidden.</sub>
 
 <br>
 
