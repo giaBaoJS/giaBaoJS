@@ -61,10 +61,10 @@ const BaoInformation = {
 
 ## <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExbG1wcmNnd3lhYWNrOGMyNnA4OTBhcGhtZGdlYzd3cGExd3M1YmNkeCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/C3NZtLRo8TMHvVCFFE/giphy.gif" width="50"> Open Source Contributions
 
-**58 recent pull requests to 28 external open-source projects.** Every bug fix starts with a root-cause investigation and a regression test that fails without the patch.
+**70 recent pull requests to 33 external open-source projects.** Every bug fix starts with a root-cause investigation and a regression test that fails without the patch.
 
 ![merged](https://img.shields.io/badge/merged-9-2EA44F?style=flat-square)
-![under review](https://img.shields.io/badge/under_review-44-1F6FEB?style=flat-square)
+![under review](https://img.shields.io/badge/under_review-56-1F6FEB?style=flat-square)
 ![closed](https://img.shields.io/badge/closed_without_merge-5-6E7781?style=flat-square)
 
 ### Merged upstream
@@ -82,13 +82,13 @@ const BaoInformation = {
 | [SwiftPackageIndex/PackageList](https://github.com/SwiftPackageIndex/PackageList) | [#14796](https://github.com/SwiftPackageIndex/PackageList/pull/14796) ✅ | Added [ToastKit](https://github.com/giaBaoJS/ToastKit) to the Swift Package Index. |
 
 <details>
-<summary><b>44 pull requests currently under review →</b></summary>
+<summary><b>56 pull requests currently under review →</b></summary>
 
 <br>
 
 | Project | Pull requests |
 | :-- | :-- |
-| [Shopify/react-native-skia](https://github.com/Shopify/react-native-skia) | [#4001](https://github.com/Shopify/react-native-skia/pull/4001) use-after-free in `Font.getTypeface()` · [#4002](https://github.com/Shopify/react-native-skia/pull/4002) WebGL context lost during effect cleanup |
+| [Shopify/react-native-skia](https://github.com/Shopify/react-native-skia) | [#4001](https://github.com/Shopify/react-native-skia/pull/4001) use-after-free in `Font.getTypeface()` · [#4002](https://github.com/Shopify/react-native-skia/pull/4002) WebGL context lost during effect cleanup · [#4021](https://github.com/Shopify/react-native-skia/pull/4021) group opacity leaking onto siblings |
 | [infinitered/reactotron](https://github.com/infinitered/reactotron) | [#1616](https://github.com/infinitered/reactotron/pull/1616) primitive Redux state paths · [#1617](https://github.com/infinitered/reactotron/pull/1617) connection-scoped custom commands · [#1618](https://github.com/infinitered/reactotron/pull/1618) malformed timeline payloads |
 | [react-native-datetimepicker/datetimepicker](https://github.com/react-native-datetimepicker/datetimepicker) | [#1052](https://github.com/react-native-datetimepicker/datetimepicker/pull/1052) Android `numbersInnerTextColor` config · [#1053](https://github.com/react-native-datetimepicker/datetimepicker/pull/1053) Expo config-plugin resolution |
 | [software-mansion/react-native-svg](https://github.com/software-mansion/react-native-svg) | [#3019](https://github.com/software-mansion/react-native-svg/pull/3019) React Native 0.87 asset resolution · [#3020](https://github.com/software-mansion/react-native-svg/pull/3020) recycled Fabric dasharray state |
@@ -101,7 +101,7 @@ const BaoInformation = {
 | [mrousavy/react-native-nitro-image](https://github.com/mrousavy/react-native-nitro-image) | [#165](https://github.com/mrousavy/react-native-nitro-image/pull/165) deterministic default resize mode |
 | [appandflow/react-native-safe-area-context](https://github.com/appandflow/react-native-safe-area-context) | [#748](https://github.com/appandflow/react-native-safe-area-context/pull/748) stable web measurement probe · [#749](https://github.com/appandflow/react-native-safe-area-context/pull/749) resilient Jest mocks · [#750](https://github.com/appandflow/react-native-safe-area-context/pull/750) optional web provider view |
 | [jpudysz/react-native-unistyles](https://github.com/jpudysz/react-native-unistyles) | [#1231](https://github.com/jpudysz/react-native-unistyles/pull/1231) isolated web child selectors · [#1232](https://github.com/jpudysz/react-native-unistyles/pull/1232) safe forwarded-ref cleanup · [#1233](https://github.com/jpudysz/react-native-unistyles/pull/1233) React Compiler scope bindings |
-| [callstack/react-native-paper](https://github.com/callstack/react-native-paper) | [#5046](https://github.com/callstack/react-native-paper/pull/5046) function children/styles on native · [#5047](https://github.com/callstack/react-native-paper/pull/5047) deep theme merging · [#5048](https://github.com/callstack/react-native-paper/pull/5048) ordered Portal queue |
+| [callstack/react-native-paper](https://github.com/callstack/react-native-paper) | [#5046](https://github.com/callstack/react-native-paper/pull/5046) function children/styles on native · [#5047](https://github.com/callstack/react-native-paper/pull/5047) deep theme merging · [#5048](https://github.com/callstack/react-native-paper/pull/5048) ordered Portal queue · [#5064](https://github.com/callstack/react-native-paper/pull/5064) Appbar back icon ignoring Provider settings · [#5065](https://github.com/callstack/react-native-paper/pull/5065) `Switch` dropping its ref · [#5066](https://github.com/callstack/react-native-paper/pull/5066) mixed `configureFonts` config |
 | [rnmapbox/maps](https://github.com/rnmapbox/maps) | [#4279](https://github.com/rnmapbox/maps/pull/4279) partial camera padding · [#4280](https://github.com/rnmapbox/maps/pull/4280) handled native bridge failures |
 | [powersync-ja/powersync-js](https://github.com/powersync-ja/powersync-js) | [#1068](https://github.com/powersync-ja/powersync-js/pull/1068) watched-query error logging · [#1069](https://github.com/powersync-ja/powersync-js/pull/1069) unconditional React hook order |
 | [kirillzyusko/react-native-keyboard-controller](https://github.com/kirillzyusko/react-native-keyboard-controller) | [#1603](https://github.com/kirillzyusko/react-native-keyboard-controller/pull/1603) copy/paste-ready chat guide · [#1605](https://github.com/kirillzyusko/react-native-keyboard-controller/pull/1605) animated padding accumulation |
@@ -111,10 +111,15 @@ const BaoInformation = {
 | [margelo/react-native-filament](https://github.com/margelo/react-native-filament) | [#345](https://github.com/margelo/react-native-filament/pull/345) percent-decoded local asset URIs |
 | [gronxb/hot-updater](https://github.com/gronxb/hot-updater) | [#1143](https://github.com/gronxb/hot-updater/pull/1143) invalid baseline bundle handling |
 | [heroui-inc/heroui-native](https://github.com/heroui-inc/heroui-native) | [#464](https://github.com/heroui-inc/heroui-native/pull/464) restored Typography font weights |
+| [sveltejs/svelte](https://github.com/sveltejs/svelte) | [#18689](https://github.com/sveltejs/svelte/pull/18689) `focusin`/`focusout` a11y false positive · [#18690](https://github.com/sveltejs/svelte/pull/18690) `role="tab"` on `<label>` |
+| [ueberdosis/tiptap](https://github.com/ueberdosis/tiptap) | [#8227](https://github.com/ueberdosis/tiptap/pull/8227) `xmlns` leaking into closing tags · [#8228](https://github.com/ueberdosis/tiptap/pull/8228) split list item losing `keepOnSplit` attributes |
+| [ant-design/ant-design](https://github.com/ant-design/ant-design) | [#59072](https://github.com/ant-design/ant-design/pull/59072) empty `Skeleton` heading exposed to screen readers · [#59073](https://github.com/ant-design/ant-design/pull/59073) `Steps` progress never announced |
+| [TanStack/query](https://github.com/TanStack/query) | [#11259](https://github.com/TanStack/query/pull/11259) unsubscribed Preact queries reporting `isFetching` |
+| [microsoft/rnx-kit](https://github.com/microsoft/rnx-kit) | [#4313](https://github.com/microsoft/rnx-kit/pull/4313) platform-keyed `remapImportPath` resolvers |
 
 </details>
 
-<sub>Status verified from GitHub on August 22, 2026. Closed PRs are included in the total instead of being hidden.</sub>
+<sub>Status verified from GitHub on August 23, 2026. Closed PRs are included in the total instead of being hidden.</sub>
 
 <br>
 
@@ -128,8 +133,8 @@ Native modules for the New Architecture, plus one SwiftUI package. All MIT, all 
 | **[react-native-app-shortcuts](https://github.com/giaBaoJS/react-native-app-shortcuts)** | Home screen quick actions — `UIApplicationShortcutItem` on iOS, `ShortcutManager` on Android. | [![npm](https://img.shields.io/npm/v/%40giabaojs%2Freact-native-app-shortcuts?style=flat-square&labelColor=161B22&color=CB3837&logo=npm&logoColor=white)](https://www.npmjs.com/package/@giabaojs/react-native-app-shortcuts) |
 | **[react-native-shared-transition](https://github.com/giaBaoJS/react-native-shared-transition)** | Shared element transitions between screens. Revived and rewritten — first working iOS build in the project's history. | [![npm](https://img.shields.io/npm/v/react-native-shared-transition?style=flat-square&labelColor=161B22&color=CB3837&logo=npm&logoColor=white)](https://www.npmjs.com/package/react-native-shared-transition) |
 | **[react-native-tipkit](https://github.com/giaBaoJS/react-native-tipkit)** | Apple's TipKit for React Native — popover and inline tips, display rules, event counts, frequency control. | [![npm](https://img.shields.io/npm/v/%40giabaojs%2Freact-native-tipkit?style=flat-square&labelColor=161B22&color=CB3837&logo=npm&logoColor=white)](https://www.npmjs.com/package/@giabaojs/react-native-tipkit) |
-| **[react-native-image-analysis](https://github.com/giaBaoJS/react-native-image-analysis)** | On-device OCR with text geometry, barcodes, and a tap-to-select text view. Apple VisionKit on iOS, Google ML Kit on Android. | |
-| **[react-native-ios-controls](https://github.com/giaBaoJS/react-native-ios-controls)** | Control Center, Lock Screen and Action Button controls (iOS 18 `ControlWidget`), plus a CLI that wires up the widget target for you. | |
+| **[react-native-image-analysis](https://github.com/giaBaoJS/react-native-image-analysis)** | On-device OCR with text geometry, barcodes, and a tap-to-select text view. Apple VisionKit on iOS, Google ML Kit on Android. | [![npm](https://img.shields.io/npm/v/react-native-image-analysis?style=flat-square&labelColor=161B22&color=CB3837&logo=npm&logoColor=white)](https://www.npmjs.com/package/react-native-image-analysis) |
+| **[react-native-ios-controls](https://github.com/giaBaoJS/react-native-ios-controls)** | Control Center, Lock Screen and Action Button controls (iOS 18 `ControlWidget`), plus a CLI that wires up the widget target for you. | [![npm](https://img.shields.io/npm/v/react-native-ios-controls?style=flat-square&labelColor=161B22&color=CB3837&logo=npm&logoColor=white)](https://www.npmjs.com/package/react-native-ios-controls) |
 | **[ToastKit](https://github.com/giaBaoJS/ToastKit)** | A polished SwiftUI toast & snackbar library — queued toasts, semantic styles, swipe-to-dismiss, full accessibility. | [![docs](https://img.shields.io/badge/DocC-docs-orange?style=flat-square&labelColor=161B22&logo=swift&logoColor=white)](https://giabaojs.github.io/ToastKit/documentation/toastkit/) |
 
 ## <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExNHVnZXh3ZG1qaXQ5ejI0YzQ4Mm5qN2s2cXcweWVzMTA1aGdjYm92ZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/ShM3DqhMzYxQPaT2qQ/giphy.gif" width="50"> Activity Graph
