@@ -63,14 +63,15 @@ const BaoInformation = {
 
 **82 recent pull requests to 36 external open-source projects.** Every bug fix starts with a root-cause investigation and a regression test that fails without the patch.
 
-![merged](https://img.shields.io/badge/merged-13-2EA44F?style=flat-square)
-![under review](https://img.shields.io/badge/under_review-64-1F6FEB?style=flat-square)
+![merged](https://img.shields.io/badge/merged-14-2EA44F?style=flat-square)
+![under review](https://img.shields.io/badge/under_review-63-1F6FEB?style=flat-square)
 ![closed](https://img.shields.io/badge/closed_without_merge-5-6E7781?style=flat-square)
 
 ### Merged upstream
 
 | Project | PR | Impact |
 | :-- | :-- | :-- |
+| [expo/expo](https://github.com/expo/expo) | [#48878](https://github.com/expo/expo/pull/48878) ✅ | Fixed `SQLiteStorage` permanently throwing `no such table: storage` after the sync and async APIs raced the first-run migration, and made the repair idempotent for databases already broken. |
 | [ant-design/ant-design](https://github.com/ant-design/ant-design) | [#59076](https://github.com/ant-design/ant-design/pull/59076) ✅ | Made `DirectoryTree` treat `expandedKeys={undefined}` as uncontrolled, fixing a crash on shift range selection. |
 | [Shopify/react-native-skia](https://github.com/Shopify/react-native-skia) | [#4021](https://github.com/Shopify/react-native-skia/pull/4021) ✅ | Kept the paint/opacity stack balanced in `SavePaint`, so a group's opacity stopped leaking onto its siblings. |
 | [Shopify/react-native-skia](https://github.com/Shopify/react-native-skia) | [#4022](https://github.com/Shopify/react-native-skia/pull/4022) ✅ | Applied the `Mask` `srcIn` composite once per group instead of once per draw call, fixing translucent children erasing each other. |
@@ -86,7 +87,7 @@ const BaoInformation = {
 | [SwiftPackageIndex/PackageList](https://github.com/SwiftPackageIndex/PackageList) | [#14796](https://github.com/SwiftPackageIndex/PackageList/pull/14796) ✅ | Added [ToastKit](https://github.com/giaBaoJS/ToastKit) to the Swift Package Index. |
 
 <details>
-<summary><b>64 pull requests currently under review →</b></summary>
+<summary><b>63 pull requests currently under review →</b></summary>
 
 <br>
 
@@ -98,7 +99,7 @@ const BaoInformation = {
 | [software-mansion/react-native-svg](https://github.com/software-mansion/react-native-svg) | [#3019](https://github.com/software-mansion/react-native-svg/pull/3019) React Native 0.87 asset resolution · [#3020](https://github.com/software-mansion/react-native-svg/pull/3020) recycled Fabric dasharray state |
 | [TheWidlarzGroup/react-native-video](https://github.com/TheWidlarzGroup/react-native-video) | [#5041](https://github.com/TheWidlarzGroup/react-native-video/pull/5041) bundled numeric video source types |
 | [react/react-native](https://github.com/react/react-native) | [#57939](https://github.com/react/react-native/pull/57939) SectionList viewability crash · [#57940](https://github.com/react/react-native/pull/57940) package export used by VirtualizedList |
-| [expo/expo](https://github.com/expo/expo) | [#48878](https://github.com/expo/expo/pull/48878) SQLite first-launch race · [#48879](https://github.com/expo/expo/pull/48879) SPA route fallback · [#48880](https://github.com/expo/expo/pull/48880) `expo-video` Jest mocks |
+| [expo/expo](https://github.com/expo/expo) | [#48879](https://github.com/expo/expo/pull/48879) SPA route fallback · [#48880](https://github.com/expo/expo/pull/48880) `expo-video` Jest mocks |
 | [expo/eas-cli](https://github.com/expo/eas-cli) | [#4182](https://github.com/expo/eas-cli/pull/4182) duplicate screenshot filenames · [#4183](https://github.com/expo/eas-cli/pull/4183) simulator credentials flow · [#4184](https://github.com/expo/eas-cli/pull/4184) workflow template expressions |
 | [mrousavy/nitro](https://github.com/mrousavy/nitro) | [#1477](https://github.com/mrousavy/nitro/pull/1477) web host component |
 | [mrousavy/react-native-fast-tflite](https://github.com/mrousavy/react-native-fast-tflite) | [#199](https://github.com/mrousavy/react-native-fast-tflite/pull/199) invalid Metal delegate docs · [#200](https://github.com/mrousavy/react-native-fast-tflite/pull/200) broken Jest setup |
