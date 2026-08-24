@@ -63,14 +63,17 @@ const BaoInformation = {
 
 **82 recent pull requests to 36 external open-source projects.** Every bug fix starts with a root-cause investigation and a regression test that fails without the patch.
 
-![merged](https://img.shields.io/badge/merged-9-2EA44F?style=flat-square)
-![under review](https://img.shields.io/badge/under_review-68-1F6FEB?style=flat-square)
+![merged](https://img.shields.io/badge/merged-12-2EA44F?style=flat-square)
+![under review](https://img.shields.io/badge/under_review-65-1F6FEB?style=flat-square)
 ![closed](https://img.shields.io/badge/closed_without_merge-5-6E7781?style=flat-square)
 
 ### Merged upstream
 
 | Project | PR | Impact |
 | :-- | :-- | :-- |
+| [Shopify/react-native-skia](https://github.com/Shopify/react-native-skia) | [#4021](https://github.com/Shopify/react-native-skia/pull/4021) ✅ | Kept the paint/opacity stack balanced in `SavePaint`, so a group's opacity stopped leaking onto its siblings. |
+| [Shopify/react-native-skia](https://github.com/Shopify/react-native-skia) | [#4022](https://github.com/Shopify/react-native-skia/pull/4022) ✅ | Applied the `Mask` `srcIn` composite once per group instead of once per draw call, fixing translucent children erasing each other. |
+| [Shopify/react-native-skia](https://github.com/Shopify/react-native-skia) | [#4023](https://github.com/Shopify/react-native-skia/pull/4023) ✅ | Derived the inner shadow from the shape outline rather than its opacity, so translucent shapes stopped desaturating; fixed in both the TypeScript and C++ filter graphs. |
 | [mrousavy/nitro](https://github.com/mrousavy/nitro) | [#1478](https://github.com/mrousavy/nitro/pull/1478) ✅ | Kept `| undefined` on array elements and Record values through Nitro codegen, so optional types survive generation instead of being silently widened. |
 | [mrousavy/react-native-vision-camera](https://github.com/mrousavy/react-native-vision-camera) | [#4158](https://github.com/mrousavy/react-native-vision-camera/pull/4158) ✅ | Fixed long API member headings overflowing the documentation page on mobile viewports. |
 | [Shopify/react-native-skia](https://github.com/Shopify/react-native-skia) | [#4009](https://github.com/Shopify/react-native-skia/pull/4009) ✅ | Documented the imperative matrix APIs that had no reference coverage. |
@@ -82,13 +85,13 @@ const BaoInformation = {
 | [SwiftPackageIndex/PackageList](https://github.com/SwiftPackageIndex/PackageList) | [#14796](https://github.com/SwiftPackageIndex/PackageList/pull/14796) ✅ | Added [ToastKit](https://github.com/giaBaoJS/ToastKit) to the Swift Package Index. |
 
 <details>
-<summary><b>68 pull requests currently under review →</b></summary>
+<summary><b>65 pull requests currently under review →</b></summary>
 
 <br>
 
 | Project | Pull requests |
 | :-- | :-- |
-| [Shopify/react-native-skia](https://github.com/Shopify/react-native-skia) | [#4001](https://github.com/Shopify/react-native-skia/pull/4001) use-after-free in `Font.getTypeface()` · [#4002](https://github.com/Shopify/react-native-skia/pull/4002) WebGL context lost during effect cleanup · [#4021](https://github.com/Shopify/react-native-skia/pull/4021) group opacity leaking onto siblings · [#4022](https://github.com/Shopify/react-native-skia/pull/4022) `Mask` compositing per draw call · [#4023](https://github.com/Shopify/react-native-skia/pull/4023) inner shadow desaturating translucent shapes |
+| [Shopify/react-native-skia](https://github.com/Shopify/react-native-skia) | [#4001](https://github.com/Shopify/react-native-skia/pull/4001) use-after-free in `Font.getTypeface()` · [#4002](https://github.com/Shopify/react-native-skia/pull/4002) WebGL context lost during effect cleanup |
 | [infinitered/reactotron](https://github.com/infinitered/reactotron) | [#1616](https://github.com/infinitered/reactotron/pull/1616) primitive Redux state paths · [#1617](https://github.com/infinitered/reactotron/pull/1617) connection-scoped custom commands · [#1618](https://github.com/infinitered/reactotron/pull/1618) malformed timeline payloads |
 | [react-native-datetimepicker/datetimepicker](https://github.com/react-native-datetimepicker/datetimepicker) | [#1052](https://github.com/react-native-datetimepicker/datetimepicker/pull/1052) Android `numbersInnerTextColor` config · [#1053](https://github.com/react-native-datetimepicker/datetimepicker/pull/1053) Expo config-plugin resolution |
 | [software-mansion/react-native-svg](https://github.com/software-mansion/react-native-svg) | [#3019](https://github.com/software-mansion/react-native-svg/pull/3019) React Native 0.87 asset resolution · [#3020](https://github.com/software-mansion/react-native-svg/pull/3020) recycled Fabric dasharray state |
@@ -122,7 +125,7 @@ const BaoInformation = {
 
 </details>
 
-<sub>Status verified from GitHub on August 23, 2026. Closed PRs are included in the total instead of being hidden.</sub>
+<sub>Status verified from GitHub on August 24, 2026. Closed PRs are included in the total instead of being hidden.</sub>
 
 <br>
 
