@@ -63,14 +63,15 @@ const BaoInformation = {
 
 **82 recent pull requests to 36 external open-source projects.** Every bug fix starts with a root-cause investigation and a regression test that fails without the patch.
 
-![merged](https://img.shields.io/badge/merged-12-2EA44F?style=flat-square)
-![under review](https://img.shields.io/badge/under_review-65-1F6FEB?style=flat-square)
+![merged](https://img.shields.io/badge/merged-13-2EA44F?style=flat-square)
+![under review](https://img.shields.io/badge/under_review-64-1F6FEB?style=flat-square)
 ![closed](https://img.shields.io/badge/closed_without_merge-5-6E7781?style=flat-square)
 
 ### Merged upstream
 
 | Project | PR | Impact |
 | :-- | :-- | :-- |
+| [ant-design/ant-design](https://github.com/ant-design/ant-design) | [#59076](https://github.com/ant-design/ant-design/pull/59076) ✅ | Made `DirectoryTree` treat `expandedKeys={undefined}` as uncontrolled, fixing a crash on shift range selection. |
 | [Shopify/react-native-skia](https://github.com/Shopify/react-native-skia) | [#4021](https://github.com/Shopify/react-native-skia/pull/4021) ✅ | Kept the paint/opacity stack balanced in `SavePaint`, so a group's opacity stopped leaking onto its siblings. |
 | [Shopify/react-native-skia](https://github.com/Shopify/react-native-skia) | [#4022](https://github.com/Shopify/react-native-skia/pull/4022) ✅ | Applied the `Mask` `srcIn` composite once per group instead of once per draw call, fixing translucent children erasing each other. |
 | [Shopify/react-native-skia](https://github.com/Shopify/react-native-skia) | [#4023](https://github.com/Shopify/react-native-skia/pull/4023) ✅ | Derived the inner shadow from the shape outline rather than its opacity, so translucent shapes stopped desaturating; fixed in both the TypeScript and C++ filter graphs. |
@@ -85,7 +86,7 @@ const BaoInformation = {
 | [SwiftPackageIndex/PackageList](https://github.com/SwiftPackageIndex/PackageList) | [#14796](https://github.com/SwiftPackageIndex/PackageList/pull/14796) ✅ | Added [ToastKit](https://github.com/giaBaoJS/ToastKit) to the Swift Package Index. |
 
 <details>
-<summary><b>65 pull requests currently under review →</b></summary>
+<summary><b>64 pull requests currently under review →</b></summary>
 
 <br>
 
@@ -116,7 +117,7 @@ const BaoInformation = {
 | [heroui-inc/heroui-native](https://github.com/heroui-inc/heroui-native) | [#464](https://github.com/heroui-inc/heroui-native/pull/464) restored Typography font weights |
 | [sveltejs/svelte](https://github.com/sveltejs/svelte) | [#18689](https://github.com/sveltejs/svelte/pull/18689) `focusin`/`focusout` a11y false positive · [#18690](https://github.com/sveltejs/svelte/pull/18690) `role="tab"` on `<label>` · [#18691](https://github.com/sveltejs/svelte/pull/18691) line-feed entities in attribute values · [#18692](https://github.com/sveltejs/svelte/pull/18692) misleading error for `export let x = $derived(...)` |
 | [ueberdosis/tiptap](https://github.com/ueberdosis/tiptap) | [#8227](https://github.com/ueberdosis/tiptap/pull/8227) `xmlns` leaking into closing tags · [#8228](https://github.com/ueberdosis/tiptap/pull/8228) split list item losing `keepOnSplit` attributes · [#8229](https://github.com/ueberdosis/tiptap/pull/8229) YouTube iframe without a `src` crashing the editor · [#8230](https://github.com/ueberdosis/tiptap/pull/8230) regex lookbehind breaking WebKit < 16.4 |
-| [ant-design/ant-design](https://github.com/ant-design/ant-design) | [#59072](https://github.com/ant-design/ant-design/pull/59072) empty `Skeleton` heading exposed to screen readers · [#59073](https://github.com/ant-design/ant-design/pull/59073) `Steps` progress never announced · [#59075](https://github.com/ant-design/ant-design/pull/59075) unnamed `QRCode` image · [#59076](https://github.com/ant-design/ant-design/pull/59076) `DirectoryTree` stuck with `expandedKeys={undefined}` |
+| [ant-design/ant-design](https://github.com/ant-design/ant-design) | [#59072](https://github.com/ant-design/ant-design/pull/59072) empty `Skeleton` heading exposed to screen readers · [#59073](https://github.com/ant-design/ant-design/pull/59073) `Steps` progress never announced · [#59075](https://github.com/ant-design/ant-design/pull/59075) unnamed `QRCode` image |
 | [TanStack/query](https://github.com/TanStack/query) | [#11259](https://github.com/TanStack/query/pull/11259) unsubscribed Preact queries reporting `isFetching` |
 | [microsoft/rnx-kit](https://github.com/microsoft/rnx-kit) | [#4313](https://github.com/microsoft/rnx-kit/pull/4313) platform-keyed `remapImportPath` resolvers · [#4314](https://github.com/microsoft/rnx-kit/pull/4314) `BatchWriter.finish()` never resolving |
 | [prettier/prettier](https://github.com/prettier/prettier) | [#19913](https://github.com/prettier/prettier/pull/19913) formatting `yield`/`x++` with a multiline comment produced unparseable JavaScript |
