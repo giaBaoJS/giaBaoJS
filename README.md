@@ -64,8 +64,8 @@ const BaoInformation = {
 **92 recent pull requests to 39 external open-source projects.** Every bug fix starts with a root-cause investigation and a regression test that fails without the patch.
 
 ![merged](https://img.shields.io/badge/merged-19-2EA44F?style=flat-square)
-![under review](https://img.shields.io/badge/under_review-67-1F6FEB?style=flat-square)
-![closed](https://img.shields.io/badge/closed_without_merge-6-6E7781?style=flat-square)
+![under review](https://img.shields.io/badge/under_review-66-1F6FEB?style=flat-square)
+![closed](https://img.shields.io/badge/closed_without_merge-7-6E7781?style=flat-square)
 
 ### Merged upstream
 
@@ -92,7 +92,7 @@ const BaoInformation = {
 | [SwiftPackageIndex/PackageList](https://github.com/SwiftPackageIndex/PackageList) | [#14796](https://github.com/SwiftPackageIndex/PackageList/pull/14796) ✅ | Added [ToastKit](https://github.com/giaBaoJS/ToastKit) to the Swift Package Index. |
 
 <details>
-<summary><b>67 pull requests currently under review →</b></summary>
+<summary><b>66 pull requests currently under review →</b></summary>
 
 <br>
 
@@ -107,7 +107,7 @@ const BaoInformation = {
 | [software-mansion/react-native-svg](https://github.com/software-mansion/react-native-svg) | [#3019](https://github.com/software-mansion/react-native-svg/pull/3019) React Native 0.87 asset resolution · [#3020](https://github.com/software-mansion/react-native-svg/pull/3020) recycled Fabric dasharray state |
 | [TheWidlarzGroup/react-native-video](https://github.com/TheWidlarzGroup/react-native-video) | [#5041](https://github.com/TheWidlarzGroup/react-native-video/pull/5041) bundled numeric video source types |
 | [react/react-native](https://github.com/react/react-native) | [#57939](https://github.com/react/react-native/pull/57939) SectionList viewability crash · [#57940](https://github.com/react/react-native/pull/57940) package export used by VirtualizedList |
-| [expo/expo](https://github.com/expo/expo) | [#48879](https://github.com/expo/expo/pull/48879) SPA route fallback · [#48880](https://github.com/expo/expo/pull/48880) `expo-video` Jest mocks · [#49285](https://github.com/expo/expo/pull/49285) config plugin rejecting custom asset types · [#49288](https://github.com/expo/expo/pull/49288) pnpm virtual-store paths in fingerprints · [#49289](https://github.com/expo/expo/pull/49289) fingerprint recomputed on every manifest request |
+| [expo/expo](https://github.com/expo/expo) | [#48879](https://github.com/expo/expo/pull/48879) SPA route fallback · [#48880](https://github.com/expo/expo/pull/48880) `expo-video` Jest mocks · [#49285](https://github.com/expo/expo/pull/49285) config plugin rejecting custom asset types · [#49288](https://github.com/expo/expo/pull/49288) pnpm virtual-store paths in fingerprints |
 | [expo/eas-cli](https://github.com/expo/eas-cli) | [#4182](https://github.com/expo/eas-cli/pull/4182) duplicate screenshot filenames · [#4183](https://github.com/expo/eas-cli/pull/4183) simulator credentials flow · [#4184](https://github.com/expo/eas-cli/pull/4184) workflow template expressions · [#4260](https://github.com/expo/eas-cli/pull/4260) gradle interpolation breaking flavor detection · [#4261](https://github.com/expo/eas-cli/pull/4261) `workflow:run` hanging on CI stdin |
 | [mrousavy/nitro](https://github.com/mrousavy/nitro) | [#1477](https://github.com/mrousavy/nitro/pull/1477) web host component |
 | [mrousavy/react-native-fast-tflite](https://github.com/mrousavy/react-native-fast-tflite) | [#199](https://github.com/mrousavy/react-native-fast-tflite/pull/199) invalid Metal delegate docs · [#200](https://github.com/mrousavy/react-native-fast-tflite/pull/200) broken Jest setup |
