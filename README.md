@@ -63,14 +63,17 @@ const BaoInformation = {
 
 **92 recent pull requests to 39 external open-source projects.** Every bug fix starts with a root-cause investigation and a regression test that fails without the patch.
 
-![merged](https://img.shields.io/badge/merged-16-2EA44F?style=flat-square)
-![under review](https://img.shields.io/badge/under_review-71-1F6FEB?style=flat-square)
-![closed](https://img.shields.io/badge/closed_without_merge-5-6E7781?style=flat-square)
+![merged](https://img.shields.io/badge/merged-19-2EA44F?style=flat-square)
+![under review](https://img.shields.io/badge/under_review-67-1F6FEB?style=flat-square)
+![closed](https://img.shields.io/badge/closed_without_merge-6-6E7781?style=flat-square)
 
 ### Merged upstream
 
 | Project | PR | Impact |
 | :-- | :-- | :-- |
+| [nuxt/icon](https://github.com/nuxt/icon) | [#531](https://github.com/nuxt/icon/pull/531) ✅ | Stopped the icon scanner extracting names from the middle of identifiers, so unrelated code no longer pulled phantom icons into the bundle. |
+| [sveltejs/svelte](https://github.com/sveltejs/svelte) | [#18689](https://github.com/sveltejs/svelte/pull/18689) ✅ | Taught `a11y_mouse_events_have_key_events` to accept `onfocusin`/`onfocusout`, removing a false positive on valid keyboard handling. |
+| [microsoft/rnx-kit](https://github.com/microsoft/rnx-kit) | [#4314](https://github.com/microsoft/rnx-kit/pull/4314) ✅ | Stopped `BatchWriter.finish()` waiting forever when no writes were queued, which hung TypeScript builds. |
 | [microsoft/rnx-kit](https://github.com/microsoft/rnx-kit) | [#4313](https://github.com/microsoft/rnx-kit/pull/4313) ✅ | Gave `remapImportPath` one resolver per platform, since the extension list is platform specific and a shared resolver returned the wrong module. |
 | [heroui-inc/heroui-native](https://github.com/heroui-inc/heroui-native) | [#464](https://github.com/heroui-inc/heroui-native/pull/464) ✅ | Restored the font weight that the Typography `weight` prop was silently dropping. |
 | [expo/expo](https://github.com/expo/expo) | [#48878](https://github.com/expo/expo/pull/48878) ✅ | Fixed `SQLiteStorage` permanently throwing `no such table: storage` after the sync and async APIs raced the first-run migration, and made the repair idempotent for databases already broken. |
@@ -89,14 +92,14 @@ const BaoInformation = {
 | [SwiftPackageIndex/PackageList](https://github.com/SwiftPackageIndex/PackageList) | [#14796](https://github.com/SwiftPackageIndex/PackageList/pull/14796) ✅ | Added [ToastKit](https://github.com/giaBaoJS/ToastKit) to the Swift Package Index. |
 
 <details>
-<summary><b>71 pull requests currently under review →</b></summary>
+<summary><b>67 pull requests currently under review →</b></summary>
 
 <br>
 
 | Project | Pull requests |
 | :-- | :-- |
 | [callstack/repack](https://github.com/callstack/repack) | [#1444](https://github.com/callstack/repack/pull/1444) terser plugin silently skipping `.bundle` assets · [#1446](https://github.com/callstack/repack/pull/1446) webpack losing absolute stack frame paths |
-| [nuxt/icon](https://github.com/nuxt/icon) | [#530](https://github.com/nuxt/icon/pull/530) layer-relative `customCollections` `dir` · [#531](https://github.com/nuxt/icon/pull/531) scanner matching inside identifiers |
+| [nuxt/icon](https://github.com/nuxt/icon) | [#530](https://github.com/nuxt/icon/pull/530) layer-relative `customCollections` `dir` |
 | [tabler/tabler-icons](https://github.com/tabler/tabler-icons) | [#1582](https://github.com/tabler/tabler-icons/pull/1582) trailing space causing hydration mismatch |
 | [Shopify/react-native-skia](https://github.com/Shopify/react-native-skia) | [#4001](https://github.com/Shopify/react-native-skia/pull/4001) use-after-free in `Font.getTypeface()` · [#4002](https://github.com/Shopify/react-native-skia/pull/4002) WebGL context lost during effect cleanup |
 | [infinitered/reactotron](https://github.com/infinitered/reactotron) | [#1616](https://github.com/infinitered/reactotron/pull/1616) primitive Redux state paths · [#1617](https://github.com/infinitered/reactotron/pull/1617) connection-scoped custom commands · [#1618](https://github.com/infinitered/reactotron/pull/1618) malformed timeline payloads |
@@ -120,18 +123,17 @@ const BaoInformation = {
 | [react-navigation/react-navigation](https://github.com/react-navigation/react-navigation) | [#13216](https://github.com/react-navigation/react-navigation/pull/13216) typed drawer content props |
 | [margelo/react-native-filament](https://github.com/margelo/react-native-filament) | [#345](https://github.com/margelo/react-native-filament/pull/345) percent-decoded local asset URIs |
 | [gronxb/hot-updater](https://github.com/gronxb/hot-updater) | [#1143](https://github.com/gronxb/hot-updater/pull/1143) invalid baseline bundle handling |
-| [sveltejs/svelte](https://github.com/sveltejs/svelte) | [#18689](https://github.com/sveltejs/svelte/pull/18689) `focusin`/`focusout` a11y false positive · [#18690](https://github.com/sveltejs/svelte/pull/18690) `role="tab"` on `<label>` · [#18691](https://github.com/sveltejs/svelte/pull/18691) line-feed entities in attribute values · [#18692](https://github.com/sveltejs/svelte/pull/18692) misleading error for `export let x = $derived(...)` |
+| [sveltejs/svelte](https://github.com/sveltejs/svelte) | [#18691](https://github.com/sveltejs/svelte/pull/18691) line-feed entities in attribute values · [#18692](https://github.com/sveltejs/svelte/pull/18692) misleading error for `export let x = $derived(...)` |
 | [ueberdosis/tiptap](https://github.com/ueberdosis/tiptap) | [#8227](https://github.com/ueberdosis/tiptap/pull/8227) `xmlns` leaking into closing tags · [#8228](https://github.com/ueberdosis/tiptap/pull/8228) split list item losing `keepOnSplit` attributes · [#8229](https://github.com/ueberdosis/tiptap/pull/8229) YouTube iframe without a `src` crashing the editor · [#8230](https://github.com/ueberdosis/tiptap/pull/8230) regex lookbehind breaking WebKit < 16.4 |
 | [ant-design/ant-design](https://github.com/ant-design/ant-design) | [#59072](https://github.com/ant-design/ant-design/pull/59072) empty `Skeleton` heading exposed to screen readers · [#59073](https://github.com/ant-design/ant-design/pull/59073) `Steps` progress never announced · [#59075](https://github.com/ant-design/ant-design/pull/59075) unnamed `QRCode` image |
 | [TanStack/query](https://github.com/TanStack/query) | [#11259](https://github.com/TanStack/query/pull/11259) unsubscribed Preact queries reporting `isFetching` |
-| [microsoft/rnx-kit](https://github.com/microsoft/rnx-kit) | [#4314](https://github.com/microsoft/rnx-kit/pull/4314) `BatchWriter.finish()` never resolving |
 | [prettier/prettier](https://github.com/prettier/prettier) | [#19913](https://github.com/prettier/prettier/pull/19913) formatting `yield`/`x++` with a multiline comment produced unparseable JavaScript |
 | [nuxt/ui](https://github.com/nuxt/ui) | [#6871](https://github.com/nuxt/ui/pull/6871) `0` turned into `null`/`undefined` by the `nullable`/`optional` model modifiers |
 | [vueuse/vueuse](https://github.com/vueuse/vueuse) | [#5606](https://github.com/vueuse/vueuse/pull/5606) `watchIgnorable` leaking its internal watch into the caller's debug hooks |
 
 </details>
 
-<sub>Status verified from GitHub on August 24, 2026. Closed PRs are included in the total instead of being hidden.</sub>
+<sub>Status verified from GitHub on August 25, 2026. Closed PRs are included in the total instead of being hidden.</sub>
 
 <br>
 
