@@ -1,0 +1,31 @@
+name: Activity graph
+
+on:
+  schedule:
+    - cron: "17 0 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Render the contribution graph
+        env:
+          # A classic PAT with read:user also counts private contributions.
+          # Without it the graph still renders, from public activity only.
+          GH_TOKEN: ${{ secrets.ACTIVITY_GRAPH_TOKEN || secrets.GITHUB_TOKEN }}
+        run: python3 .github/scripts/contribution_graph.py "${{ github.repository_owner }}" assets
+
+      - name: Commit if the graph moved
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/activity-graph-dark.svg assets/activity-graph-light.svg
+          git diff --cached --quiet && echo "no change" && exit 0
+          git commit -m "Update activity graph"
+          git push

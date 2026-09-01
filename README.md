@@ -94,7 +94,12 @@ Native modules for the New Architecture, plus one SwiftUI package. All MIT, all 
 | **[ToastKit](https://github.com/giaBaoJS/ToastKit)** | A polished SwiftUI toast & snackbar library — queued toasts, semantic styles, swipe-to-dismiss, full accessibility. | [![docs](https://img.shields.io/badge/DocC-docs-orange?style=flat-square&labelColor=161B22&logo=swift&logoColor=white)](https://giabaojs.github.io/ToastKit/documentation/toastkit/) |
 
 ## <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExNHVnZXh3ZG1qaXQ5ejI0YzQ4Mm5qN2s2cXcweWVzMTA1aGdjYm92ZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/ShM3DqhMzYxQPaT2qQ/giphy.gif" width="50"> Activity Graph
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=giaBaoJS&theme=tokyo-night&hide_border=true" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-graph-dark.svg">
+  <img alt="Contribution graph for giaBaoJS" src="./assets/activity-graph-light.svg" width="100%">
+</picture>
+
+<sub>Rendered from the GitHub API and committed to this repo by <a href="./.github/workflows/activity-graph.yml">a weekly workflow</a>, so it does not depend on a third party staying online.</sub>
 
 <img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="60"> <em><b>I love connecting with different people</b> so if you want to say <b>hi, I'll be happy to meet you more!</b> 😊</em>
 
