@@ -2,14 +2,6 @@
 <h2> Hi, I'm Bao Nguyen <br>
 A React Native Developer <img src="https://i.gifer.com/ZMQt.gif" width="50"></h2>
 
-## <img src="https://media.giphy.com/media/b0KqQy2HXjBjFC30Rb/giphy.gif" width="50"> Let's Connect
-
-<p align="left">
-  <a href="mailto:giabaofrontend@gmail.com"><img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logoColor=white&logo=gmail" alt="Gmail" /></a>
-  <a href="https://www.linkedin.com/in/baonguyenrn/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logoColor=white&logo=linkedin" alt="LinkedIn" /></a>
-  <a href="https://x.com/BNguyen86186"><img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logoColor=white&logo=x" alt="X" /></a>
-</p>
-
 ### <img src="https://i.pinimg.com/originals/63/b4/f2/63b4f20141bda26594b08fca821d6e4d.gif" width="50"> A little more about me...  
 
 🚀 I'm a React Native Developer with 6+ years of experience in building high-quality and performant mobile applications  
@@ -53,8 +45,32 @@ const BaoInformation = {
 
 ### State Management & APIs
 ![Redux](https://img.shields.io/badge/Redux-593D88?style=for-the-badge&logo=redux&logoColor=white)
-![React Query](https://img.shields.io/badge/React_Query-FF4154?style=for-the-badge&logo=react%20query&logoColor=white)
+![TanStack Query](https://img.shields.io/badge/TanStack_Query-FF4154?style=for-the-badge&logo=reactquery&logoColor=white)
 ![Axios](https://img.shields.io/badge/Axios-5A29E4?style=for-the-badge&logo=axios&logoColor=white)
+
+### Core Integrations
+![FCM](https://img.shields.io/badge/FCM-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
+![Crashlytics](https://img.shields.io/badge/Crashlytics-039BE5?style=for-the-badge&logo=firebase&logoColor=white)
+![Expo Updates](https://img.shields.io/badge/Expo_Updates-1B1F23?style=for-the-badge&logo=expo&logoColor=white)
+![Google Maps](https://img.shields.io/badge/Google_Maps-4285F4?style=for-the-badge&logo=googlemaps&logoColor=white)
+![Mapbox](https://img.shields.io/badge/Mapbox-000000?style=for-the-badge&logo=mapbox&logoColor=white)
+![Reanimated](https://img.shields.io/badge/Reanimated-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+
+### Payments
+![Payoo](https://img.shields.io/badge/Payoo-00A651?style=for-the-badge)
+![VNPay](https://img.shields.io/badge/VNPay-005BAA?style=for-the-badge)
+![ZaloPay](https://img.shields.io/badge/ZaloPay-0068FF?style=for-the-badge&logo=zalo&logoColor=white)
+
+### Security
+![SSL Pinning](https://img.shields.io/badge/SSL_Pinning-3DDC84?style=for-the-badge&logo=letsencrypt&logoColor=white)
+![Biometrics](https://img.shields.io/badge/Biometrics-000000?style=for-the-badge&logo=apple&logoColor=white)
+![Keychain/Keystore](https://img.shields.io/badge/Keychain%2FKeystore-FFB300?style=for-the-badge&logo=keycdn&logoColor=white)
+![Anti-Fraud/Bot](https://img.shields.io/badge/Anti--Fraud%2FBot-D32F2F?style=for-the-badge)
+
+### Deployment
+![Fastlane](https://img.shields.io/badge/Fastlane-00CB40?style=for-the-badge&logo=fastlane&logoColor=white)
+![TestFlight](https://img.shields.io/badge/TestFlight-0D96F6?style=for-the-badge&logo=appstore&logoColor=white)
+![Play Console](https://img.shields.io/badge/Play_Console-414141?style=for-the-badge&logo=googleplay&logoColor=white)
 
 ### Development Tools
 ![VS Code](https://img.shields.io/badge/VS_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)
@@ -176,7 +192,15 @@ Native modules for the New Architecture, plus one SwiftUI package. All MIT, all 
 
 <sub>Rendered from the GitHub API and committed to this repo by <a href="./.github/workflows/activity-graph.yml">a weekly workflow</a>, so it does not depend on a third party staying online.</sub>
 
-<img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="60"> <em><b>I love connecting with different people</b> so if you want to say <b>hi, I'll be happy to meet you more!</b> 😊</em>
+## <img src="https://media.giphy.com/media/dWs0Ro475O6yLbw40q/giphy.gif" width="50"> Let's Connect
+
+<div align="center">
+  <a href="mailto:giabaofrontend@gmail.com"><img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logoColor=white&logo=gmail" alt="Gmail" /></a>
+  <a href="https://www.linkedin.com/in/baonguyenrn/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logoColor=white&logo=linkedin" alt="LinkedIn" /></a>
+  <a href="https://x.com/BNguyen86186"><img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logoColor=white&logo=x" alt="X" /></a>
+  <br /><br />
+  <em><b>I love connecting with different people</b>, so if you want to say <b>hi, I'll be happy to meet you!</b> 😊</em>
+</div>
 
 ---
 <div align="center">
