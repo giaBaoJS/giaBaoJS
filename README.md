@@ -2,6 +2,8 @@
 <h2> Hi, I'm Bao Nguyen <br>
 A React Native Developer <img src="https://i.gifer.com/ZMQt.gif" width="50"></h2>
 
+## <img src="https://media.giphy.com/media/b0KqQy2HXjBjFC30Rb/giphy.gif" width="50"> Let's Connect
+
 <p align="left">
   <a href="mailto:giabaofrontend@gmail.com"><img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logoColor=white&logo=gmail" alt="Gmail" /></a>
   <a href="https://www.linkedin.com/in/baonguyenrn/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logoColor=white&logo=linkedin" alt="LinkedIn" /></a>
