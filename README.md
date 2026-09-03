@@ -60,6 +60,7 @@ const BaoInformation = {
 ![Payoo](https://img.shields.io/badge/Payoo-00A651?style=for-the-badge)
 ![VNPay](https://img.shields.io/badge/VNPay-005BAA?style=for-the-badge)
 ![ZaloPay](https://img.shields.io/badge/ZaloPay-0068FF?style=for-the-badge&logo=zalo&logoColor=white)
+![Stripe](https://img.shields.io/badge/Stripe-635BFF?style=for-the-badge&logo=stripe&logoColor=white)
 
 ### Security
 ![SSL Pinning](https://img.shields.io/badge/SSL_Pinning-3DDC84?style=for-the-badge&logo=letsencrypt&logoColor=white)
