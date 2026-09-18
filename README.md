@@ -81,16 +81,16 @@ const BaoInformation = {
 
 ## <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExbG1wcmNnd3lhYWNrOGMyNnA4OTBhcGhtZGdlYzd3cGExd3M1YmNkeCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/C3NZtLRo8TMHvVCFFE/giphy.gif" width="50"> Open Source Contributions
 
-**190 pull requests to 55 external projects.** Every fix starts with a root-cause investigation and a regression test that fails without the patch.
+**214 pull requests to 61 external projects.** Every fix starts with a root-cause investigation and a regression test that fails without the patch.
 
 <p align="left">
-<img src="https://img.shields.io/badge/merged-75-2EA44F?style=for-the-badge&labelColor=161B22" />
-<img src="https://img.shields.io/badge/under%20review-98-1F6FEB?style=for-the-badge&labelColor=161B22" />
-<img src="https://img.shields.io/badge/landed%20via%20maintainer%20PR-1-8957E5?style=for-the-badge&labelColor=161B22" />
-<img src="https://img.shields.io/badge/closed%20without%20merge-17-6E7781?style=for-the-badge&labelColor=161B22" />
+<img src="https://img.shields.io/badge/merged-108-2EA44F?style=for-the-badge&labelColor=161B22" />
+<img src="https://img.shields.io/badge/under%20review-86-1F6FEB?style=for-the-badge&labelColor=161B22" />
+<img src="https://img.shields.io/badge/landed%20via%20maintainer%20PR-2-8957E5?style=for-the-badge&labelColor=161B22" />
+<img src="https://img.shields.io/badge/closed%20without%20merge-18-6E7781?style=for-the-badge&labelColor=161B22" />
 </p>
 
-### Merged upstream, into 28 projects
+### Merged upstream, into 37 projects
 
 <table>
 <tr>
@@ -98,83 +98,92 @@ const BaoInformation = {
 
 | Project | PRs |
 |:--|--:|
-| [react-native-skia](https://github.com/Shopify/react-native-skia/pulls?q=is%3Apr+author%3AgiaBaoJS) | `7` |
+| [react-native-skia](https://github.com/Shopify/react-native-skia/pulls?q=is%3Apr+author%3AgiaBaoJS) | `8` |
+| [unocss](https://github.com/unocss/unocss/pulls?q=is%3Apr+author%3AgiaBaoJS) | `7` |
 | [datetimepicker](https://github.com/react-native-datetimepicker/datetimepicker/pulls?q=is%3Apr+author%3AgiaBaoJS) | `6` |
 | [hot-updater](https://github.com/gronxb/hot-updater/pulls?q=is%3Apr+author%3AgiaBaoJS) | `6` |
-| [rnx-kit](https://github.com/microsoft/rnx-kit/pulls?q=is%3Apr+author%3AgiaBaoJS) | `5` |
+| [react-hook-form](https://github.com/react-hook-form/react-hook-form/pulls?q=is%3Apr+author%3AgiaBaoJS) | `6` |
+| [rnx-kit](https://github.com/microsoft/rnx-kit/pulls?q=is%3Apr+author%3AgiaBaoJS) | `6` |
+| [quasar](https://github.com/quasarframework/quasar/pulls?q=is%3Apr+author%3AgiaBaoJS) | `5` |
 | [svelte](https://github.com/sveltejs/svelte/pulls?q=is%3Apr+author%3AgiaBaoJS) | `5` |
-| [unocss](https://github.com/unocss/unocss/pulls?q=is%3Apr+author%3AgiaBaoJS) | `5` |
-| [react-hook-form](https://github.com/react-hook-form/react-hook-form/pulls?q=is%3Apr+author%3AgiaBaoJS) | `4` |
+| [ant-design](https://github.com/ant-design/ant-design/pulls?q=is%3Apr+author%3AgiaBaoJS) | `4` |
 | [react-native-gesture-handler](https://github.com/software-mansion/react-native-gesture-handler/pulls?q=is%3Apr+author%3AgiaBaoJS) | `4` |
-| [ant-design](https://github.com/ant-design/ant-design/pulls?q=is%3Apr+author%3AgiaBaoJS) | `3` |
 | [chakra-ui](https://github.com/chakra-ui/chakra-ui/pulls?q=is%3Apr+author%3AgiaBaoJS) | `3` |
-
-</td>
-<td valign="top" width="33%">
-
-| Project | PRs |
-|:--|--:|
 | [expo](https://github.com/expo/expo/pulls?q=is%3Apr+author%3AgiaBaoJS) | `3` |
-| [margelo/nitro](https://github.com/margelo/nitro/pulls?q=is%3Apr+author%3AgiaBaoJS) | `3` |
-| [quasar](https://github.com/quasarframework/quasar/pulls?q=is%3Apr+author%3AgiaBaoJS) | `3` |
-| [stylelint](https://github.com/stylelint/stylelint/pulls?q=is%3Apr+author%3AgiaBaoJS) | `3` |
-| [recharts](https://github.com/recharts/recharts/pulls?q=is%3Apr+author%3AgiaBaoJS) | `2` |
-| [heroui-native](https://github.com/heroui-inc/heroui-native/pulls?q=is%3Apr+author%3AgiaBaoJS) | `1` |
-| [mantine](https://github.com/mantinedev/mantine/pulls?q=is%3Apr+author%3AgiaBaoJS) | `1` |
-| [marked](https://github.com/markedjs/marked/pulls?q=is%3Apr+author%3AgiaBaoJS) | `1` |
-| [nuxt/icon](https://github.com/nuxt/icon/pulls?q=is%3Apr+author%3AgiaBaoJS) | `1` |
-| [nuxt/ui](https://github.com/nuxt/ui/pulls?q=is%3Apr+author%3AgiaBaoJS) | `1` |
+| [heroui-native](https://github.com/heroui-inc/heroui-native/pulls?q=is%3Apr+author%3AgiaBaoJS) | `3` |
 
 </td>
 <td valign="top" width="33%">
 
 | Project | PRs |
 |:--|--:|
-| [PackageList](https://github.com/SwiftPackageIndex/PackageList/pulls?q=is%3Apr+author%3AgiaBaoJS) | `1` |
+| [margelo/nitro](https://github.com/margelo/nitro/pulls?q=is%3Apr+author%3AgiaBaoJS) | `3` |
+| [marked](https://github.com/markedjs/marked/pulls?q=is%3Apr+author%3AgiaBaoJS) | `3` |
+| [react-native-audio-api](https://github.com/software-mansion/react-native-audio-api/pulls?q=is%3Apr+author%3AgiaBaoJS) | `3` |
+| [repack](https://github.com/callstack/repack/pulls?q=is%3Apr+author%3AgiaBaoJS) | `3` |
+| [slidev](https://github.com/slidevjs/slidev/pulls?q=is%3Apr+author%3AgiaBaoJS) | `3` |
+| [stylelint](https://github.com/stylelint/stylelint/pulls?q=is%3Apr+author%3AgiaBaoJS) | `3` |
+| [knip](https://github.com/webpro-nl/knip/pulls?q=is%3Apr+author%3AgiaBaoJS) | `2` |
+| [nuxt/ui](https://github.com/nuxt/ui/pulls?q=is%3Apr+author%3AgiaBaoJS) | `2` |
+| [prettier](https://github.com/prettier/prettier/pulls?q=is%3Apr+author%3AgiaBaoJS) | `2` |
+| [react-native-paper](https://github.com/callstack/react-native-paper/pulls?q=is%3Apr+author%3AgiaBaoJS) | `2` |
+| [recharts](https://github.com/recharts/recharts/pulls?q=is%3Apr+author%3AgiaBaoJS) | `2` |
+| [tsdown](https://github.com/rolldown/tsdown/pulls?q=is%3Apr+author%3AgiaBaoJS) | `2` |
+
+</td>
+<td valign="top" width="33%">
+
+| Project | PRs |
+|:--|--:|
+| [mantine](https://github.com/mantinedev/mantine/pulls?q=is%3Apr+author%3AgiaBaoJS) | `1` |
+| [mongoose](https://github.com/Automattic/mongoose/pulls?q=is%3Apr+author%3AgiaBaoJS) | `1` |
+| [nuxt/icon](https://github.com/nuxt/icon/pulls?q=is%3Apr+author%3AgiaBaoJS) | `1` |
 | [powersync-js](https://github.com/powersync-ja/powersync-js/pulls?q=is%3Apr+author%3AgiaBaoJS) | `1` |
 | [react-native-bottom-sheet](https://github.com/software-mansion-labs/react-native-bottom-sheet/pulls?q=is%3Apr+author%3AgiaBaoJS) | `1` |
 | [react-native-fast-tflite](https://github.com/margelo/react-native-fast-tflite/pulls?q=is%3Apr+author%3AgiaBaoJS) | `1` |
 | [react-native-iconify](https://github.com/huytdps13400/react-native-iconify/pulls?q=is%3Apr+author%3AgiaBaoJS) | `1` |
-| [react-native-paper](https://github.com/callstack/react-native-paper/pulls?q=is%3Apr+author%3AgiaBaoJS) | `1` |
 | [react-native-vision-camera](https://github.com/margelo/react-native-vision-camera/pulls?q=is%3Apr+author%3AgiaBaoJS) | `1` |
+| [react-spectrum](https://github.com/adobe/react-spectrum/pulls?q=is%3Apr+author%3AgiaBaoJS) | `1` |
+| [Swift Package Index](https://github.com/SwiftPackageIndex/PackageList/pulls?q=is%3Apr+author%3AgiaBaoJS) | `1` |
 | [tiptap](https://github.com/ueberdosis/tiptap/pulls?q=is%3Apr+author%3AgiaBaoJS) | `1` |
+| [vueuse](https://github.com/vueuse/vueuse/pulls?q=is%3Apr+author%3AgiaBaoJS) | `1` |
 
 </td>
 </tr>
 </table>
 
-### Under review, in 40 projects
+### Under review, in 41 projects
 
 <table>
 <tr>
-<td valign="top" width="34%">
+<td valign="top" width="50%">
 
 | Project | PRs |
 |:--|--:|
 | [eas-cli](https://github.com/expo/eas-cli/pulls?q=is%3Apr+author%3AgiaBaoJS) | `5` |
-| [react-native-paper](https://github.com/callstack/react-native-paper/pulls?q=is%3Apr+author%3AgiaBaoJS) | `5` |
 | [mantine](https://github.com/mantinedev/mantine/pulls?q=is%3Apr+author%3AgiaBaoJS) | `4` |
+| [react-native-paper](https://github.com/callstack/react-native-paper/pulls?q=is%3Apr+author%3AgiaBaoJS) | `4` |
 | [react-native-svg](https://github.com/software-mansion/react-native-svg/pulls?q=is%3Apr+author%3AgiaBaoJS) | `4` |
-| [ant-design](https://github.com/ant-design/ant-design/pulls?q=is%3Apr+author%3AgiaBaoJS) | `3` |
+| [tamagui](https://github.com/tamagui/tamagui/pulls?q=is%3Apr+author%3AgiaBaoJS) | `4` |
 
 </td>
-<td valign="top" width="33%">
+<td valign="top" width="50%">
 
 | Project | PRs |
 |:--|--:|
 | [expo](https://github.com/expo/expo/pulls?q=is%3Apr+author%3AgiaBaoJS) | `3` |
 | [immer](https://github.com/immerjs/immer/pulls?q=is%3Apr+author%3AgiaBaoJS) | `3` |
 | [jest](https://github.com/jestjs/jest/pulls?q=is%3Apr+author%3AgiaBaoJS) | `3` |
+| [keyboard-controller](https://github.com/kirillzyusko/react-native-keyboard-controller/pulls?q=is%3Apr+author%3AgiaBaoJS) | `3` |
 | [legend-list](https://github.com/LegendApp/legend-list/pulls?q=is%3Apr+author%3AgiaBaoJS) | `3` |
-| [maps](https://github.com/rnmapbox/maps/pulls?q=is%3Apr+author%3AgiaBaoJS) | `3` |
 
 </td>
 </tr>
 </table>
 
-<a href="https://github.com/search?q=is%3Apr+author%3AgiaBaoJS+is%3Aopen&type=pullrequests"><img src="https://img.shields.io/badge/%2B30%20more%20projects-62%20PRs-30363D?style=for-the-badge&labelColor=161B22" /></a>
+<a href="https://github.com/search?q=is%3Apr+author%3AgiaBaoJS+is%3Aopen&type=pullrequests"><img src="https://img.shields.io/badge/%2B31%20more%20projects-50%20PRs-30363D?style=for-the-badge&labelColor=161B22" /></a>
 
-<sub>Counts verified from the GitHub API on September 8, 2026. "Landed via maintainer PR" is a change a maintainer folded into their own pull request and credited with a <code>Co-authored-by</code> trailer, so it shipped even though this pull request shows as closed. Closed pull requests are counted in the total rather than hidden.</sub>
+<sub>Counts verified from the GitHub API on September 18, 2026. "Landed via maintainer PR" is a change that shipped through the maintainer's own commit rather than this pull request: <a href="https://github.com/quasarframework/quasar/pull/18541">quasar#18541</a>, carried with a <code>Co-authored-by</code> trailer, and <a href="https://github.com/software-mansion/react-native-gesture-handler/pull/4518">react-native-gesture-handler#4518</a>, whose diagnosis the maintainer reimplemented and cited in the shipped source. Both show as closed. Closed pull requests are counted in the total rather than hidden.</sub>
 
 <br>
 
